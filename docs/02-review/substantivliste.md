@@ -47,8 +47,8 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-43 | Fachkundiger | Fachkundiger | US3: „ein Fachkundiger“ | nicht nötig  | = Helfer |
 | N-44 | Kalender | Kalender | UC-02 Nachbedingung: „Kalender des Helfers“ |  |  |
 | N-45 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ |  |  |
-| N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ |  |  |
-| N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ |  |  |
+| N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ | Objket = Bewertung  |  |
+| N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ | Objekt |  |
 | N-48 | Stadt | Stadt | US9: „der Stadt“ |  |  |
 | N-49 | Fördergelder | Fördergeld | US9: „Fördergelder sichern“ |  |  |
 | N-50 | Ehrenamtliche, Ehrenamtlicher | Ehrenamtlicher | US10: „Ehrenamtliche“; US5: „ehrenamtlicher Helfer“ |nicht nötig   | = Sabine ?  |
@@ -62,11 +62,11 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-58 | Benachrichtigung | Benachrichtigung | F-100: „SMS-Erinnerung“ | Objekt  |  |
 | N-59 | Kartendienst | Kartendienst | UC-02 Beteiligte Systeme: „Kartendienst“ |  |  |
 | N-60 | Umkreissuche | Umkreissuche | UC-02 Beteiligte Systeme: „für die Umkreissuche“ |  |  |
-| N-61 | Umkreis | Umkreis | UC-02 Vorbedingung: „im Umkreis verfügbar“ |  |  |
-| N-62 | Bildspeicher | Bildspeicher | UC-02 Beteiligte Systeme: „Bildspeicher für Fotos“ |  |  |
+| N-61 | Umkreis | Umkreis | UC-02 Vorbedingung: „im Umkreis verfügbar“ | nicht nötig  | ?   |
+| N-62 | Bildspeicher | Bildspeicher | UC-02 Beteiligte Systeme: „Bildspeicher für Fotos“ | nicht nötig  | ?  |
 | N-63 | Ziel | Ziel | UC-02 Feld: „Ziel“ |  |  |
-| N-64 | Vorbedingung, Vorbedingungen | Vorbedingung | UC-02 Feld: „Vorbedingungen“ |  |  |
-| N-65 | Nachbedingung | Nachbedingung | UC-02 Feld: „Nachbedingung“ |  |  |
+| N-64 | Vorbedingung, Vorbedingungen | Vorbedingung | UC-02 Feld: „Vorbedingungen“ | nicht nötig? | ? |
+| N-65 | Nachbedingung | Nachbedingung | UC-02 Feld: „Nachbedingung“ | nicht nötig  | ?  |
 | N-66 | Hauptablauf | Hauptablauf | UC-02 Abschnitt: „Hauptablauf“ |  |  |
 | N-67 | Alternativer Ablauf | Alternativer Ablauf | UC-02 Abschnitt: „Alternativer Ablauf“ |  |  |
 | N-68 | Ausnahme | Ausnahme | UC-02 Abschnitt: „Ausnahmen“ |  |  |
