@@ -11,27 +11,27 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-07 | Nutzer, Nutzerin | Nutzer / Nutzerin | F-120: „registrierte Nutzer“; UC-02: „Nutzerin“ | nötig? | Attribut der App |
 | N-08 | Akteure, Akteur | Akteur | UC-02 Feld: „Akteure“ | ? | Attribut der App? bzw  |
 | N-09 | Name | Name | F-010: „mit Name“ | nötig | Attribut der App |
-| N-10 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | nötig als Attribut  |  |
+| N-10 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | nötig | Attribut |
 | N-11 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | nötig | Attribut der Hilfesuchenden/ des Formulars |
 | N-12 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | nötig für Objekt Registrierung / Formular/ App  | Attribut |
 | N-13 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | nötig  | Attribut der Hilfesuchenden/ des Formulars|
 | N-14 | Formular, Formulare | Formular | US1: „komplizierte Formulare“ | nicht nötig | Formular = Registrierung in der App |
 | N-15 | Registrierung, Kurzregistrierung | Registrierung | F-010: „Kurzregistrierung“ | nötig | Objekt innerhalb App |
-| N-16 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung |  |  |
-| N-17 | Reparaturanfrage, Anfragen | Reparaturanfrage / Anfrage | US7: „neue Anfragen“; F-020: „Reparaturanfrage“ |  |  |
-| N-18 | Warteliste | Warteliste | UC-02 Ausnahme 5e: „Anfrage kommt auf eine Warteliste“ |  |  |
+| N-16 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung | nötig | Attribut der App  |
+| N-17 | Reparaturanfrage, Anfragen | Reparaturanfrage / Anfrage | US7: „neue Anfragen“; F-020: „Reparaturanfrage“ | nötig  | Objekt |
+| N-18 | Warteliste | Warteliste | UC-02 Ausnahme 5e: „Anfrage kommt auf eine Warteliste“ | evtl. nötig  | Objekt  |
 | N-19 | Gerät, Geräte | Gerät | US3: „was am Gerät kaputt ist“ | Objekt | gegenstand der Reparatur im Repairt Cafe   |
 | N-20 | Gerätekategorie | Gerätekategorie | F-020: „Gerätekategorie“ |  nötig | Attribut der App  |
 | N-21 | Küchengerät | Küchengerät | UC-02 Hauptablauf 2: „Küchengerät“ | Auswahl?| ? |
-| N-22 | Kaffeemaschine | Kaffeemaschine | UC-02 Hauptablauf 2: „Kaffeemaschine“ |  |  |
+| N-22 | Kaffeemaschine | Kaffeemaschine | UC-02 Hauptablauf 2: „Kaffeemaschine“ | unnötig | ? |
 | N-23 | Defekt | Defekt | US2: „den Defekt“ | nicht nötig als Objekt  | = Problemn |
 | N-24 | Auswahl | Auswahl | US2: „über eine Auswahl“ |nciht nötig  | ?  |
-| N-25 | Problem, Probleme, Fehlerbilder | Problem / Fehlerbild | US2: „typischer Probleme“; UC-02: „Fehlerbilder“ | Attribut des Formulars in der App  |  |
-| N-26 | Fachbegriffe | Fachbegriff | US2: „keine Fachbegriffe“ | Attribut des Formulars |  |
-| N-27 | Foto, Fotos | Foto | US5: „Fotos vorab sehen“; F-090: „Foto des Typenschilds“ | Attribut des Formulars |  |
+| N-25 | Problem, Probleme, Fehlerbilder | Problem / Fehlerbild | US2: „typischer Probleme“; UC-02: „Fehlerbilder“ | nötig | Attribut des Formulars in der App |
+| N-26 | Fachbegriffe | Fachbegriff | US2: „keine Fachbegriffe“ | evtl. nötig ? | Attribut des Formulars |
+| N-27 | Foto, Fotos | Foto | US5: „Fotos vorab sehen“; F-090: „Foto des Typenschilds“ | nötig | Attribut des Formulars in der App |
 | N-28 | Typenschild | Typenschild | UC-02 Hauptablauf 4: „Foto vom Typenschild“ | Attribut des Formulars |  |
 | N-29 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ | Attribut  | Helfer  |
-| N-30 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | Attrbiut des Helfers |  |
+| N-30 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | nötig | Attrbiut des Helfers |
 | N-31 | Fähigkeiten, Fähigkeit | Fähigkeit | US8: „Fähigkeiten“; F-120: „gesuchten Fähigkeit“ | = kenntnisse, skills  |  |
 | N-32 | Profil, Profile | Profil | US8: „in Profilen“ | nötig  | Objekt in App?  |
 | N-33 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | Objekt / Attribut ? |  |
@@ -46,9 +46,9 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-42 | Person | Person | US6: „die Person“ | nicht nnötig | = die Hilfesuchende  |
 | N-43 | Fachkundiger | Fachkundiger | US3: „ein Fachkundiger“ | nicht nötig  | = Helfer |
 | N-44 | Kalender | Kalender | UC-02 Nachbedingung: „Kalender des Helfers“ | nicht nötig  | = Attribut von Helfer weann er Zeit hat / friee Termine    |
-| N-45 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ | nötig  | Objekt CAfe Termin |
-| N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ | Objket = Bewertung  |  |
-| N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ |  | Objekt |
+| N-45 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ | nötig  | Objekt Cafe Termin |
+| N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ |   | Objekt = Bewertung |
+| N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ | nicht nötig |doppelt (mit Reparaturtermin)! |
 | N-48 | Stadt | Stadt | US9: „der Stadt“ | nicht nötig | ? |
 | N-49 | Fördergelder | Fördergeld | US9: „Fördergelder sichern“ | evtl nötig | Sabine macht das aber geriengfügig projektbezofgen  |
 | N-50 | Ehrenamtliche, Ehrenamtlicher | Ehrenamtlicher | US10: „Ehrenamtliche“; US5: „ehrenamtlicher Helfer“ |nicht nötig   | = Sabine ?  |
@@ -57,7 +57,7 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-53 | System | System | F-010: „muss das System“ | nciht notwendig | da = App |
 | N-54 | Backend | Backend | UC-02 Beteiligte Systeme: „Backend“ | nicht nötig |  ? |
 | N-55 | Datenbank | Datenbank | UC-02 Beteiligte Systeme: „Datenbank für Anfragen, Helfer und Termine“ | objekt  | anhängig an Martin und den Helfern |
-| N-56 | SMS-Dienst | SMS-Dienst | UC-02: „SMS-Dienst“ | Objekt ? |  |
+| N-56 | SMS-Dienst | SMS-Dienst | UC-02: „SMS-Dienst“ | = Benachrichtigung/Erinnerung?| Objekt ? |
 | N-57 | Erinnerung, Erinnerungen | Erinnerung | UC-02 Nachbedingung: „Erinnerungen“ | unnötig  | = sms dienst  |
 | N-58 | Benachrichtigung | Benachrichtigung | F-100: „SMS-Erinnerung“ | Objekt  |  = sms dienst |
 | N-59 | Kartendienst | Kartendienst | UC-02 Beteiligte Systeme: „Kartendienst“ | nciht nötig   | ?  |
