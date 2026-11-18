@@ -67,8 +67,8 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-63 | Ziel | Ziel | UC-02 Feld: „Ziel“ |  |  |
 | N-64 | Vorbedingung, Vorbedingungen | Vorbedingung | UC-02 Feld: „Vorbedingungen“ | nicht nötig? | ? |
 | N-65 | Nachbedingung | Nachbedingung | UC-02 Feld: „Nachbedingung“ | nicht nötig  | ?  |
-| N-66 | Hauptablauf | Hauptablauf | UC-02 Abschnitt: „Hauptablauf“ |  |  |
-| N-67 | Alternativer Ablauf | Alternativer Ablauf | UC-02 Abschnitt: „Alternativer Ablauf“ |  |  |
-| N-68 | Ausnahme | Ausnahme | UC-02 Abschnitt: „Ausnahmen“ |  |  |
-| N-69 | Recycling | Recycling | UC-02 Ausnahme 7e: „Recycling“ |  |  |
-| N-70 | Entsorgung | Entsorgung | UC-02 Ausnahme 7e: „Entsorgung“ |  |  |
+| N-66 | Hauptablauf | Hauptablauf | UC-02 Abschnitt: „Hauptablauf“ | nicht nötig | was ist das?  |
+| N-67 | Alternativer Ablauf | Alternativer Ablauf | UC-02 Abschnitt: „Alternativer Ablauf“ | nciht nötig | was ist das ?  |
+| N-68 | Ausnahme | Ausnahme | UC-02 Abschnitt: „Ausnahmen“ | nicht nötig | ? |
+| N-69 | Recycling | Recycling | UC-02 Ausnahme 7e: „Recycling“ | nciht nötig | ?  |
+| N-70 | Entsorgung | Entsorgung | UC-02 Ausnahme 7e: „Entsorgung“ | nicht nötig | ? |
