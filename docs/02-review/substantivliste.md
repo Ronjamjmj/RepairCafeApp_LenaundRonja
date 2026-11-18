@@ -41,7 +41,7 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-37 | Diagnose | Diagnose | US4: „nach der Diagnose“ | Objket |  |
 | N-38 | Ersatzteil, Ersatzteile | Ersatzteil | US4: „das Teil“; F-040: „Ersatzteil“ |  |  |
 | N-39 | Ersatzteilempfehlung | Ersatzteilempfehlung | US4: „Ersatzteilempfehlung“ |  |  |
-| N-40 | Richtpreis | Richtpreis | US6: „Richtpreis“ |  |  |
+| N-40 | Richtpreis | Richtpreis | US6: „Richtpreis“ | Attribut  | App  |
 | N-41 | Handy | Handy | US4: „aufs Handy“ | nicht nötig  | = in der App als objekt |
 | N-42 | Person | Person | US6: „die Person“ | nicht nnötig | = die Hilfesuchende  |
 | N-43 | Fachkundiger | Fachkundiger | US3: „ein Fachkundiger“ | nicht nötig  | = Helfer |
@@ -56,15 +56,15 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-52 | Liste | Liste | US8: „handschriftliche Liste“ | nicht nötig | jetzt in app/ online verfügbar  |
 | N-53 | System | System | F-010: „muss das System“ | nciht notwendig | da = App |
 | N-54 | Backend | Backend | UC-02 Beteiligte Systeme: „Backend“ | nicht nötig |  ? |
-| N-55 | Datenbank | Datenbank | UC-02 Beteiligte Systeme: „Datenbank für Anfragen, Helfer und Termine“ |  |  |
+| N-55 | Datenbank | Datenbank | UC-02 Beteiligte Systeme: „Datenbank für Anfragen, Helfer und Termine“ | objekt  | anhängig an Martin und den Helfern |
 | N-56 | SMS-Dienst | SMS-Dienst | UC-02: „SMS-Dienst“ | Objekt ? |  |
-| N-57 | Erinnerung, Erinnerungen | Erinnerung | UC-02 Nachbedingung: „Erinnerungen“ |  |  |
-| N-58 | Benachrichtigung | Benachrichtigung | F-100: „SMS-Erinnerung“ | Objekt  |  |
-| N-59 | Kartendienst | Kartendienst | UC-02 Beteiligte Systeme: „Kartendienst“ |  |  |
-| N-60 | Umkreissuche | Umkreissuche | UC-02 Beteiligte Systeme: „für die Umkreissuche“ |  |  |
+| N-57 | Erinnerung, Erinnerungen | Erinnerung | UC-02 Nachbedingung: „Erinnerungen“ | unnötig  | = sms dienst  |
+| N-58 | Benachrichtigung | Benachrichtigung | F-100: „SMS-Erinnerung“ | Objekt  |  = sms dienst |
+| N-59 | Kartendienst | Kartendienst | UC-02 Beteiligte Systeme: „Kartendienst“ | nciht nötig   | ?  |
+| N-60 | Umkreissuche | Umkreissuche | UC-02 Beteiligte Systeme: „für die Umkreissuche“ | nciht nötig  | ? |
 | N-61 | Umkreis | Umkreis | UC-02 Vorbedingung: „im Umkreis verfügbar“ | nicht nötig  | ?   |
 | N-62 | Bildspeicher | Bildspeicher | UC-02 Beteiligte Systeme: „Bildspeicher für Fotos“ | nicht nötig  | ?  |
-| N-63 | Ziel | Ziel | UC-02 Feld: „Ziel“ |  |  |
+| N-63 | Ziel | Ziel | UC-02 Feld: „Ziel“ | nicht nötig   |?  |
 | N-64 | Vorbedingung, Vorbedingungen | Vorbedingung | UC-02 Feld: „Vorbedingungen“ | nicht nötig? | ? |
 | N-65 | Nachbedingung | Nachbedingung | UC-02 Feld: „Nachbedingung“ | nicht nötig  | ?  |
 | N-66 | Hauptablauf | Hauptablauf | UC-02 Abschnitt: „Hauptablauf“ | nicht nötig | was ist das?  |
