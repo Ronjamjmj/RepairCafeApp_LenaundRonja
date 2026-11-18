@@ -46,7 +46,7 @@ flowchart LR
     UC07 --- SMS
 
     UC02 -.->|"«include»"| UC03
-    UC05 -.->|"«include»"| UC07
+    UC05 -.->|"«extend»"| UC07
     UC06 -.->|"«include»"| UC07
 ```
 
