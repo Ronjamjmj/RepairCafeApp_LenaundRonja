@@ -47,7 +47,7 @@ flowchart LR
 
     UC02 -.->|"«include»"| UC03
     UC05 -.->|"«extend»"| UC07
-    UC06 -.->|"«include»"| UC07
+    UC06 -.->|"«extend»"| UC07
 ```
 
 ### Akteure

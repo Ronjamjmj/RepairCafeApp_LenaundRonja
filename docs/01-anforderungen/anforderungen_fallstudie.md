@@ -22,16 +22,16 @@ Alle Anforderungen haben die Version 1 und den Status „Entwurf".
 
 | ID | Feature | Priorität | Anforderungsname | Beschreibung | Quelle |
 |---|---|---|---|---|---|
-| F-010 | Registrierung | Muss | Kurzregistrierung | Nach dem ersten Öffnen der App muss das System neuen Hilfesuchenden die Möglichkeit bieten, sich nur mit Name, Telefonnummer und/oder E-Mail-Adresse zu registrieren. | US1, UC-01 |
+| F-010 | Registrierung | Muss | Kurzregistrierung | Nach dem ersten Öffnen der App muss das System neuen Hilfesuchenden die Möglichkeit bieten, sich nur mit Name und mindestens einer Kontaktangabe (Telefonnummer und/oder E-Mail-Adresse) zu registrieren. | US1, UC-01 |
 | F-020 | Reparaturanfrage | Muss | Defekt auswählen | Nach Auswahl der Gerätekategorie muss das System angemeldeten Hilfesuchenden die Möglichkeit bieten, den Defekt aus einer Liste typischer Fehlerbilder auszuwählen. | US2, UC-03 |
-| F-030 | Terminbuchung | Muss | Diagnosetermin buchen | Nach Absenden einer Reparaturanfrage muss das System angemeldeten Hilfesuchenden die Möglichkeit bieten, einen vorgeschlagenen Helfer mit Bewertung auszuwählen und bei ihm einen freien Diagnosetermin zu buchen. | US3, UC-04, UC-05 |
+| F-030 | Terminbuchung | Muss | Diagnosetermin buchen | Nach Zuweisung eines Helfers zur Reparaturanfrage (F-080) muss das System angemeldeten Hilfesuchenden den zugewiesenen Helfer mit Bewertung anzeigen und die Möglichkeit bieten, bei ihm einen freien Diagnosetermin zu buchen. | US3, UC-04, UC-05 |
 | F-040 | Diagnose | Muss | Ersatzteil empfehlen | Nach Durchführung eines Diagnosetermins muss das System Helfern die Möglichkeit bieten, die Diagnose und eine Ersatzteilempfehlung mit optionalem Richtpreis zu erfassen. | US6, UC-08 |
 | F-050 | Diagnose | Muss | Ersatzteilempfehlung einsehen | Nach Speichern einer Ersatzteilempfehlung durch den Helfer muss das System der Hilfesuchenden die Möglichkeit bieten, die Empfehlung in der App einzusehen. | US4, UC-02 |
 | F-060 | Terminbuchung | Muss | Reparaturtermin buchen | Nach Markieren von „Ersatzteil vorhanden" muss das System Hilfesuchenden die Möglichkeit bieten, einen freien Reparaturtermin beim selben Helfer zu buchen. | US4, UC-06 |
 | F-070 | Anfragenübersicht | Muss | Anfragen filtern | Nach Anmeldung als Helfer muss das System Helfern die Möglichkeit bieten, offene Anfragen nach Fachgebiet zu filtern und die zugehörigen Fotos anzusehen. | US5 |
-| F-080 | Verwaltung | Muss | Anfrage zuweisen | Nach Eingang einer neuen Reparaturanfrage muss das System dem technischen Leiter die Möglichkeit bieten, die Anfrage zu prüfen und einem passenden Helfer zuzuweisen. | US7, UC-10 |
+| F-080 | Verwaltung | Muss | Anfrage zuweisen | Nach Eingang einer neuen Reparaturanfrage muss das System dem technischen Leiter die Möglichkeit bieten, die Anfrage zu prüfen und anhand der Kenntnisse (Skills) der Helfer einem passenden Helfer zuzuweisen. Das System zeigt der Hilfesuchenden den zugewiesenen Helfer in der App an. | US7, UC-10 |
 | F-090 | Reparaturanfrage | Soll | Typenschild-Foto hochladen | Nach Auswahl des Defekts muss das System angemeldeten Hilfesuchenden die Möglichkeit bieten, ein Foto des Typenschilds hochzuladen oder diesen Schritt zu überspringen. | US2, UC-03 |
-| F-100 | Benachrichtigung | Soll | SMS-Erinnerung aktivieren | Nach Buchung eines Diagnose- oder Reparaturtermins muss das System Hilfesuchenden die Möglichkeit bieten, eine SMS-Erinnerung 24 Stunden vor dem Termin zu aktivieren. | UC-07 |
+| F-100 | Benachrichtigung | Soll | SMS-Erinnerung aktivieren | Nach Buchung eines Diagnose- oder Reparaturtermins muss das System Hilfesuchenden mit hinterlegter Telefonnummer die Möglichkeit bieten, eine SMS-Erinnerung 24 Stunden vor dem Termin zu aktivieren (Opt-in; ohne Aktivierung wird keine Erinnerung gesendet). | UC-07 |
 | F-110 | Verwaltung | Soll | Helferprofil pflegen | Nach Anmeldung als technischer Leiter muss das System dem technischen Leiter die Möglichkeit bieten, die Fähigkeiten jedes Helfers in dessen Profil anzulegen und zu bearbeiten. | US8, UC-11 |
 | F-120 | Helfergewinnung | Kann | Neue Helfer einladen | Nach Eingabe einer gesuchten Fähigkeit muss das System der Mitgründerin die Möglichkeit bieten, registrierte Nutzer mit dieser Fähigkeit zu finden und als Helfer einzuladen. | US10, UC-13 |
 
@@ -57,7 +57,7 @@ Alle Anforderungen haben die Version 1.
 - **Qualitätsmerkmal:** Benutzbarkeit (Eigenschaft: Benutzerfreundlichkeit)
 - **Quelle:** US2, US3, UC-02, UC-05
 - **Geltungsbereich:** Reparaturanfrage, Terminbuchung
-- **Beschreibung:** In einem Usability-Test mit 5 Personen ab 65 Jahren ohne Vorerfahrung mit der App müssen mindestens 4 Personen eine Reparaturanfrage inklusive Diagnosetermin ohne fremde Hilfe in höchstens 20 Minuten abschließen.
+- **Beschreibung:** In einem Usability-Test mit 5 Personen ab 65 Jahren ohne Vorerfahrung mit der App müssen mindestens 4 Personen eine Reparaturanfrage inklusive Diagnosetermin ohne fremde Hilfe in höchstens 20 Minuten abschließen. Die Zeit läuft vom Tippen auf „Gerät reparieren lassen" (angemeldet) bis zur Buchungsbestätigung des Diagnosetermins; der Helfer ist im Test bereits zugewiesen. Die 20 Minuten sind die Abnahmegrenze pro Person; die strengeren Werte aus AK-N020-2 (Ø ≤ 5 min, max. 8 min) sind das Qualitätsziel innerhalb dieser Grenze.
 - **Metrik:** Bearbeitungszeit (Minuten), Erfolgsquote ohne Hilfe (Personen)
 - **Zielwert:** ≤ 20 min, ≥ 4 von 5
 
@@ -93,7 +93,7 @@ Alle Anforderungen haben die Version 1.
 - **Qualitätsmerkmal:** Zuverlässigkeit (Eigenschaft: Zuverlässigkeit)
 - **Quelle:** UC-07
 - **Geltungsbereich:** Benachrichtigung
-- **Beschreibung:** Jede Person mit gebuchtem Termin erhält am Tag vor dem Termin eine SMS-Erinnerung. Mindestens 99 % der Erinnerungen müssen höchstens 10 Minuten nach dem geplanten Versandzeitpunkt zugestellt sein. Messung über einen Monat anhand des Zustellprotokolls des SMS-Dienstes.
+- **Beschreibung:** Jede Person, die für ihren gebuchten Termin die SMS-Erinnerung aktiviert hat (F-100), erhält am Tag vor dem Termin eine SMS-Erinnerung. Mindestens 99 % der Erinnerungen müssen höchstens 10 Minuten nach dem geplanten Versandzeitpunkt zugestellt sein. Messung über einen Monat anhand des Zustellprotokolls des SMS-Dienstes.
 - **Metrik:** Quote für das Auftreten von Fehlern (nicht rechtzeitig zugestellte SMS, %)
 - **Zielwert:** ≤ 1 % pro Monat
 
@@ -179,7 +179,7 @@ Drei funktionale Anforderungen (F-010, F-030, F-100) und zwei nicht-funktionale 
 ### F-010 Kurzregistrierung
 
 #### AK-010-1 (funktional)
-- **Ausformuliert:** Als Hilfesuchende möchte ich mich nur mit Name und Telefonnummer registrieren können, damit ich die App ohne lange Formulare sofort nutzen kann.
+- **Ausformuliert:** Als Hilfesuchende möchte ich mich nur mit Name und Telefonnummer registrieren können (Alternative mit E-Mail: AK-010-2), damit ich die App ohne lange Formulare sofort nutzen kann.
 - **Akzeptanzkriterium:**
   - **Gegeben:** Die App wird zum ersten Mal geöffnet.
   - **Wenn:** Name „Sabine Müller" und Telefonnummer „0171 1234567" eingegeben und „Registrieren" getippt werden.
@@ -210,12 +210,12 @@ Drei funktionale Anforderungen (F-010, F-030, F-100) und zwei nicht-funktionale 
 ### F-030 Diagnosetermin buchen
 
 #### AK-030-1 (funktional, Erfolgsfall)
-- **Ausformuliert:** Als Hilfesuchende möchte ich einen bewerteten Helfer und einen freien Termin wählen und eine Bestätigung erhalten, damit ich sicher weiß, wann mein Gerät angeschaut wird.
+- **Ausformuliert:** Als Hilfesuchende möchte ich bei dem mir zugewiesenen, bewerteten Helfer einen freien Termin wählen und eine Bestätigung erhalten, damit ich sicher weiß, wann mein Gerät angeschaut wird.
 - **Akzeptanzkriterium:**
-  - **Gegeben:** Eine Anfrage „Toaster heizt nicht" ist abgeschickt.
-  - **Wenn:** Die Hilfesuchende einen vorgeschlagenen Helfer (mit Sternebewertung) und einen freien Termin wählt und bestätigt.
+  - **Gegeben:** Eine Anfrage „Toaster heizt nicht" ist abgeschickt und vom technischen Leiter einem Helfer zugewiesen.
+  - **Wenn:** Die App der Hilfesuchenden den zugewiesenen Helfer (mit Sternebewertung) anzeigt und sie einen freien Termin bei ihm wählt und bestätigt.
   - **Dann:** Der Termin ist gebucht, die Bestätigung erscheint in der App und kommt innerhalb von 60 Sekunden per SMS oder E-Mail. Der Termin steht im Kalender des Helfers.
-- **Testbedingung:** Testumgebung mit 3 Helfern und je 5 freien Terminen.
+- **Testbedingung:** Testumgebung mit einem zugewiesenen Helfer und 5 freien Terminen.
 
 #### AK-030-2 (funktional, Fehlerfall)
 - **Ausformuliert:** Als Hilfesuchende möchte ich informiert werden, wenn mein gewählter Termin inzwischen vergeben ist, damit ich direkt einen anderen freien Termin wählen kann.
@@ -227,7 +227,7 @@ Drei funktionale Anforderungen (F-010, F-030, F-100) und zwei nicht-funktionale 
 #### AK-030-3 (funktional, alternativer Ablauf)
 - **Ausformuliert:** Als Hilfesuchende möchte ich, dass meine Anfrage auch ohne verfügbaren Helfer offen bleibt, damit jemand mein Gerät [Wortlaut im Board schwer lesbar] , sobald ein passender Helfer gefunden ist.
 - **Akzeptanzkriterium:**
-  - **Wenn:** Für die Gerätekategorie ist kein Helfer verfügbar.
+  - **Wenn:** Für die Gerätekategorie ist kein Helfer verfügbar, sodass keiner zugewiesen werden kann.
   - **Dann:** Die App zeigt „Wir suchen einen passenden Helfer für Sie", die Anfrage bleibt offen und der technische Leiter wird benachrichtigt (F-080).
 - **Testbedingung:** Gerätekategorie ohne zugeordneten Helfer.
 
@@ -243,7 +243,7 @@ Drei funktionale Anforderungen (F-010, F-030, F-100) und zwei nicht-funktionale 
 #### AK-100-1 (funktional, Erfolgsfall)
 - **Ausformuliert:** Als Hilfesuchende möchte ich 24 Stunden vor meinem Termin eine SMS mit allen wichtigen Angaben bekommen, damit ich den Termin nicht vergesse.
 - **Akzeptanzkriterium:**
-  - **Gegeben:** Ein Termin am Donnerstag um 15:00 Uhr ist gebucht.
+  - **Gegeben:** Ein Termin am Donnerstag um 15:00 Uhr ist gebucht und eine Telefonnummer ist hinterlegt.
   - **Wenn:** Die SMS-Erinnerung aktiviert wird.
   - **Dann:** Am Mittwoch zwischen 15:00 und 15:10 Uhr kommt eine SMS mit Datum, Uhrzeit, Ort und Name des Helfers.
 - **Testbedingung:** Testtermin mit Testnummer, Zustellprotokoll des SMS-Dienstes.
@@ -263,10 +263,10 @@ Drei funktionale Anforderungen (F-010, F-030, F-100) und zwei nicht-funktionale 
 - **Testbedingung:** Termin nach Aktivierung absagen bzw. verschieben.
 
 #### AK-100-4 (funktional, Fehlerfall)
-- **Ausformuliert:** Als Hilfesuchende möchte ich, dass auch bei SMS-Problemen zuverlässig erinnert wird, notfalls per E-Mail, damit ich meinen Termin trotzdem wahrnehme.
+- **Ausformuliert:** Als Hilfesuchende möchte ich, dass auch bei SMS-Problemen zuverlässig erinnert wird, notfalls per E-Mail (nur als Rückfall nach fehlgeschlagener SMS), damit ich meinen Termin trotzdem wahrnehme.
 - **Akzeptanzkriterium:**
   - **Wenn:** Die SMS nicht zugestellt werden kann.
-  - **Dann:** Das System versucht es nach 5 und 15 Minuten erneut und schickt danach eine E-Mail, falls eine Adresse hinterlegt ist.
+  - **Dann:** Das System versucht es nach 5 und 15 Minuten erneut und schickt danach eine E-Mail-Erinnerung, falls eine Adresse hinterlegt ist. Ohne aktivierte SMS-Erinnerung wird weder SMS noch E-Mail gesendet.
 - **Testbedingung:** Ungültige Testnummer beim SMS-Dienst.
 
 ### N-020 Anfrage ohne Hilfe abschließen
@@ -274,12 +274,12 @@ Drei funktionale Anforderungen (F-010, F-030, F-100) und zwei nicht-funktionale 
 #### AK-N020-1 (nicht-funktional, Messkriterium)
 - **Ausformuliert:** Als ältere Nutzerin ohne App-Erfahrung möchte ich eine Reparaturanfrage samt Terminbuchung ganz allein abschließen können, damit ich niemanden um Hilfe bitten muss.
 - **Akzeptanzkriterium:** Mindestens 4 von 5 Testpersonen schließen eine Reparaturanfrage inklusive Diagnosetermin ohne fremde Hilfe ab.
-- **Testbedingung:** 5 Personen ab 65 Jahren, ohne Vorerfahrung, eigenes Smartphone, keine Einweisung.
+- **Testbedingung:** 5 Personen ab 65 Jahren, ohne Vorerfahrung, eigenes Smartphone, keine Einweisung; Helfer im Test vorab zugewiesen.
 
 #### AK-N020-2 (nicht-funktional, Messkriterium)
 - **Ausformuliert:** Als ältere Nutzerin möchte ich meine Anfrage in wenigen Minuten erledigen, damit mich die App weder überfordert noch unnötig Zeit kostet.
 - **Akzeptanzkriterium:** Die Testpersonen brauchen dafür durchschnittlich höchstens 5 Minuten, keine Person länger als 8 Minuten.
-- **Testbedingung:** Stoppuhr vom Öffnen der App bis zur Buchungsbestätigung.
+- **Testbedingung:** Stoppuhr vom Tippen auf „Gerät reparieren lassen" bis zur Buchungsbestätigung des Diagnosetermins (Helfer im Test vorab zugewiesen).
 
 #### AK-N020-3 (nicht-funktional, Messkriterium)
 - **Ausformuliert:** Als ältere Nutzerin möchte ich mich in der App [Wortlaut im Board schwer lesbar], damit ich mich bei der Bedienung sicher fühle.
@@ -322,10 +322,10 @@ Zusammengehörige Anforderungen aus Aufgabe 1 und 2 sind zu Features gebündelt.
 |---|---|---|---|---|---|---|
 | FE-1 | Registrierung | Schneller Einstieg in die App ohne lange Formulare. | F-010 Kurzregistrierung | ReqMOB-N120 Kleine App-Größe | US1, UC-01 | Sofort |
 | FE-2 | Reparaturanfrage stellen | Defekt ohne Fachbegriffe beschreiben, optional mit Foto des Typenschilds. | F-020 Defekt auswählen, F-090 Typenschild-Foto hochladen | ReqMOB-N020 Anfrage ohne Hilfe abschließen, ReqMOB-N110 Schneller Neustart ohne Datenverlust | US2, UC-02, UC-03 | Sofort |
-| FE-3 | Terminbuchung | Diagnose- und Reparaturtermin bei einem bewerteten Helfer buchen. | F-030 Diagnosetermin buchen, F-060 Reparaturtermin buchen | ReqMOB-N030 Antwortzeit Helfervorschläge, ReqMOB-N020 Anfrage ohne Hilfe abschließen | US3, US4, UC-04, UC-05, UC-06 | Sofort |
+| FE-3 | Terminbuchung | Diagnose- und Reparaturtermin beim zugewiesenen Helfer buchen. | F-030 Diagnosetermin buchen, F-060 Reparaturtermin buchen | ReqMOB-N030 Antwortzeit Helfervorschläge, ReqMOB-N020 Anfrage ohne Hilfe abschließen | US3, US4, UC-04, UC-05, UC-06 | Sofort |
 | FE-4 | Diagnose und Ersatzteilempfehlung | Helfer erfasst Diagnose und Ersatzteil, die Hilfesuchende sieht die Empfehlung in der App. | F-040 Ersatzteil empfehlen, F-050 Ersatzteilempfehlung einsehen | – | US4, US6, UC-02, UC-08 | Sofort |
-| FE-5 | Anfragensteuerung | Leitung weist Anfragen zu, Helfer filtern Anfragen nach Fachgebiet. | F-070 Anfragen filtern, F-080 Anfrage zuweisen | ReqMOB-N050 Rollenbasierter Datenzugriff, ReqMOB-N130 Kurze Einarbeitung für Helfer | US5, US7, UC-10 | Sofort |
-| FE-6 | Terminerinnerung | SMS-Erinnerung 24 Stunden vor dem Termin. | F-100 SMS-Erinnerung aktivieren | ReqMOB-N060 SMS-Erinnerung am Vortag | UC-07 | Nächstes |
+| FE-5 | Anfragensteuerung | Leitung weist Anfragen anhand der Helfer-Skills zu, die Hilfesuchende sieht den Helfer; Helfer filtern Anfragen nach Fachgebiet. | F-070 Anfragen filtern, F-080 Anfrage zuweisen | ReqMOB-N050 Rollenbasierter Datenzugriff, ReqMOB-N130 Kurze Einarbeitung für Helfer | US5, US7, UC-10 | Sofort |
+| FE-6 | Terminerinnerung | Optionale SMS-Erinnerung (Opt-in) 24 Stunden vor dem Termin. | F-100 SMS-Erinnerung aktivieren | ReqMOB-N060 SMS-Erinnerung am Vortag | UC-07 | Nächstes |
 | FE-7 | Helferprofile | Fähigkeiten aller Helfer digital statt auf einer handschriftlichen Liste pflegen. | F-110 Helferprofil pflegen | – | US8, UC-11 | Nächstes |
 | FE-8 | Helfergewinnung | Registrierte Nutzer mit gesuchten Fähigkeiten finden und als Helfer einladen. | F-120 Neue Helfer einladen | – | US10, UC-13 | Später |
 | FE-9 | Café-Planung | Café-Termine planen. | noch offen | ReqMOB-N090 Nutzbar am Laptop und auf der Website | US9, UC-12 | Später |
