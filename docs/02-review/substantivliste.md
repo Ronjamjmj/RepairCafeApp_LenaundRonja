@@ -10,7 +10,7 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-06 | Mitgründerin | Mitgründerin | US9: „Als Mitgründerin“ |  |  |
 | N-07 | Nutzer, Nutzerin | Nutzer / Nutzerin | F-120: „registrierte Nutzer“; UC-02: „Nutzerin“ |  |  |
 | N-08 | Akteure, Akteur | Akteur | UC-02 Feld: „Akteure“ |  |  |
-| N-09 | Name | Name | F-010: „mit Name“ |  |  |
+| N-09 | Name | Name | F-010: „mit Name“ | nötig | Attribut der App |
 | N-10 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | nötig als Attribut  |  |
 | N-11 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | nötig als Attribut  |  |
 | N-12 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | nötig als Attribut  |  |
