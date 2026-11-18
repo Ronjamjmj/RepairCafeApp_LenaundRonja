@@ -29,12 +29,12 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-25 | Problem, Probleme, Fehlerbilder | Problem / Fehlerbild | US2: „typischer Probleme“; UC-02: „Fehlerbilder“ | nötig | Attribut des Formulars in der App |
 | N-26 | Fachbegriffe | Fachbegriff | US2: „keine Fachbegriffe“ | evtl. nötig ? | Attribut des Formulars |
 | N-27 | Foto, Fotos | Foto | US5: „Fotos vorab sehen“; F-090: „Foto des Typenschilds“ | nötig | Attribut des Formulars in der App |
-| N-28 | Typenschild | Typenschild | UC-02 Hauptablauf 4: „Foto vom Typenschild“ | Attribut des Formulars |  |
+| N-28 | Typenschild | Typenschild | UC-02 Hauptablauf 4: „Foto vom Typenschild“ | nötig | Attribut des Formulars |
 | N-29 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ | Attribut  | Helfer  |
 | N-30 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | nötig | Attrbiut des Helfers |
 | N-31 | Fähigkeiten, Fähigkeit | Fähigkeit | US8: „Fähigkeiten“; F-120: „gesuchten Fähigkeit“ | = kenntnisse, skills  |  |
 | N-32 | Profil, Profile | Profil | US8: „in Profilen“ | nötig  | Objekt in App?  |
-| N-33 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | Objekt / Attribut ? |  |
+| N-33 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | nötig | Objekt / Attribut ?  |
 | N-34 | Diagnosetermin | Diagnosetermin | US3: „Diagnosetermin“ | Objekt  | aus App? auch Attribut ?  |
 | N-35 | Reparaturtermin | Reparaturtermin | US4: „Reparaturtermin“ | nötig  | Reparaturtermin als Objekt  |
 | N-36 | Termin, Termine, Zeitfenster | Termin / Zeitfenster | US3: „Termin“; UC-02 Vorbedingung: „freies Zeitfenster“ | nötig | Attribut von Zeitfenster |
