@@ -7,22 +7,22 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-03 | Hilfesuchende | Hilfesuchende | US1–US4: „Als Hilfesuchende“ | Nötig als Objekt | App Benutzer  |
 | N-04 | Helfer, Helfers, Helfern | Helfer | US3: „zugewiesenen, bewerteten Helfer“; F-040: „Helfern“ |  Nötig als Objekt | App z.Vfg steller  |
 | N-05 | technischer Leiter | Technischer Leiter | F-080: „dem technischen Leiter“ | nötig als Objekt  | weist dem Hilfesuchneden einen Helfer zu |
-| N-06 | Mitgründerin | Mitgründerin | US9: „Als Mitgründerin“ |  |  |
-| N-07 | Nutzer, Nutzerin | Nutzer / Nutzerin | F-120: „registrierte Nutzer“; UC-02: „Nutzerin“ |  |  |
-| N-08 | Akteure, Akteur | Akteur | UC-02 Feld: „Akteure“ |  |  |
+| N-06 | Mitgründerin | Mitgründerin | US9: „Als Mitgründerin“ | evtl. nötig | Objekt= Rosa |
+| N-07 | Nutzer, Nutzerin | Nutzer / Nutzerin | F-120: „registrierte Nutzer“; UC-02: „Nutzerin“ | nötig? | Attribut der App |
+| N-08 | Akteure, Akteur | Akteur | UC-02 Feld: „Akteure“ | ? | Attribut der App? bzw  |
 | N-09 | Name | Name | F-010: „mit Name“ | nötig | Attribut der App |
 | N-10 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | nötig als Attribut  |  |
-| N-11 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | nötig als Attribut  |  |
-| N-12 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | nötig als Attribut  |  |
-| N-13 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | nötig als Attribut  |  |
-| N-14 | Formular, Formulare | Formular | US1: „komplizierte Formulare“ |  Attribut ? / ATTRIBUT DER APP|  |
-| N-15 | Registrierung, Kurzregistrierung | Registrierung | F-010: „Kurzregistrierung“ | Objekt innerhalb App |  |
+| N-11 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | nötig | Attribut der Hilfesuchenden/ des Formulars |
+| N-12 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | nötig für Objekt Registrierung / Formular/ App  | Attribut |
+| N-13 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | nötig  | Attribut der Hilfesuchenden/ des Formulars|
+| N-14 | Formular, Formulare | Formular | US1: „komplizierte Formulare“ | nicht nötig | Formular = Registrierung in der App |
+| N-15 | Registrierung, Kurzregistrierung | Registrierung | F-010: „Kurzregistrierung“ | nötig | Objekt innerhalb App |
 | N-16 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung |  |  |
 | N-17 | Reparaturanfrage, Anfragen | Reparaturanfrage / Anfrage | US7: „neue Anfragen“; F-020: „Reparaturanfrage“ |  |  |
 | N-18 | Warteliste | Warteliste | UC-02 Ausnahme 5e: „Anfrage kommt auf eine Warteliste“ |  |  |
 | N-19 | Gerät, Geräte | Gerät | US3: „was am Gerät kaputt ist“ | Objekt | gegenstand der Reparatur im Repairt Cafe   |
-| N-20 | Gerätekategorie | Gerätekategorie | F-020: „Gerätekategorie“ |  |  |
-| N-21 | Küchengerät | Küchengerät | UC-02 Hauptablauf 2: „Küchengerät“ |  |  |
+| N-20 | Gerätekategorie | Gerätekategorie | F-020: „Gerätekategorie“ |  nötig | Attribut der App  |
+| N-21 | Küchengerät | Küchengerät | UC-02 Hauptablauf 2: „Küchengerät“ | Auswahl?| ? |
 | N-22 | Kaffeemaschine | Kaffeemaschine | UC-02 Hauptablauf 2: „Kaffeemaschine“ |  |  |
 | N-23 | Defekt | Defekt | US2: „den Defekt“ | nicht nötig als Objekt  | = Problemn |
 | N-24 | Auswahl | Auswahl | US2: „über eine Auswahl“ |nciht nötig  | ?  |
@@ -33,22 +33,22 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-29 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ | Attribut  | Helfer  |
 | N-30 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | Attrbiut des Helfers |  |
 | N-31 | Fähigkeiten, Fähigkeit | Fähigkeit | US8: „Fähigkeiten“; F-120: „gesuchten Fähigkeit“ | = kenntnisse, skills  |  |
-| N-32 | Profil, Profile | Profil | US8: „in Profilen“ |  |  |
+| N-32 | Profil, Profile | Profil | US8: „in Profilen“ | nötig  | Objekt in App?  |
 | N-33 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | Objekt / Attribut ? |  |
 | N-34 | Diagnosetermin | Diagnosetermin | US3: „Diagnosetermin“ | Objekt  | aus App? auch Attribut ?  |
-| N-35 | Reparaturtermin | Reparaturtermin | US4: „Reparaturtermin“ |  |  |
-| N-36 | Termin, Termine, Zeitfenster | Termin / Zeitfenster | US3: „Termin“; UC-02 Vorbedingung: „freies Zeitfenster“ |  |  |
-| N-37 | Diagnose | Diagnose | US4: „nach der Diagnose“ | Objket |  |
-| N-38 | Ersatzteil, Ersatzteile | Ersatzteil | US4: „das Teil“; F-040: „Ersatzteil“ |  |  |
-| N-39 | Ersatzteilempfehlung | Ersatzteilempfehlung | US4: „Ersatzteilempfehlung“ |  |  |
+| N-35 | Reparaturtermin | Reparaturtermin | US4: „Reparaturtermin“ | nötig  | Reparaturtermin als Objekt  |
+| N-36 | Termin, Termine, Zeitfenster | Termin / Zeitfenster | US3: „Termin“; UC-02 Vorbedingung: „freies Zeitfenster“ | nötig | Attribut von Zeitfenster |
+| N-37 | Diagnose | Diagnose | US4: „nach der Diagnose“ | nötig | Objekt (= Problem?)  |
+| N-38 | Ersatzteil, Ersatzteile | Ersatzteil | US4: „das Teil“; F-040: „Ersatzteil“ | nötig | Objekt oder Attribut (Problem)  |
+| N-39 | Ersatzteilempfehlung | Ersatzteilempfehlung | US4: „Ersatzteilempfehlung“ | nötig | Attribut immerhalb Objket App?  |
 | N-40 | Richtpreis | Richtpreis | US6: „Richtpreis“ | Attribut  | App  |
 | N-41 | Handy | Handy | US4: „aufs Handy“ | nicht nötig  | = in der App als objekt |
 | N-42 | Person | Person | US6: „die Person“ | nicht nnötig | = die Hilfesuchende  |
 | N-43 | Fachkundiger | Fachkundiger | US3: „ein Fachkundiger“ | nicht nötig  | = Helfer |
 | N-44 | Kalender | Kalender | UC-02 Nachbedingung: „Kalender des Helfers“ | nicht nötig  | = Attribut von Helfer weann er Zeit hat / friee Termine    |
-| N-45 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ |  |  |
+| N-45 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ | nötig  | Objekt CAfe Termin |
 | N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ | Objket = Bewertung  |  |
-| N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ | Objekt |  |
+| N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ |  | Objekt |
 | N-48 | Stadt | Stadt | US9: „der Stadt“ | nicht nötig | ? |
 | N-49 | Fördergelder | Fördergeld | US9: „Fördergelder sichern“ | evtl nötig | Sabine macht das aber geriengfügig projektbezofgen  |
 | N-50 | Ehrenamtliche, Ehrenamtlicher | Ehrenamtlicher | US10: „Ehrenamtliche“; US5: „ehrenamtlicher Helfer“ |nicht nötig   | = Sabine ?  |
