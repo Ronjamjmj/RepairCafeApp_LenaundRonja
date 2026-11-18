@@ -50,12 +50,12 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ | Objket = Bewertung  |  |
 | N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ | Objekt |  |
 | N-48 | Stadt | Stadt | US9: „der Stadt“ | nicht nötig | ? |
-| N-49 | Fördergelder | Fördergeld | US9: „Fördergelder sichern“ |  |  |
+| N-49 | Fördergelder | Fördergeld | US9: „Fördergelder sichern“ | evtl nötig | Sabine macht das aber geriengfügig projektbezofgen  |
 | N-50 | Ehrenamtliche, Ehrenamtlicher | Ehrenamtlicher | US10: „Ehrenamtliche“; US5: „ehrenamtlicher Helfer“ |nicht nötig   | = Sabine ?  |
 | N-51 | Einladung | Einladung | US10: „sie einladen“ | verb  | zugehörig zu Sabine und Ehrenamtliche  |
-| N-52 | Liste | Liste | US8: „handschriftliche Liste“ |  |  |
+| N-52 | Liste | Liste | US8: „handschriftliche Liste“ | nicht nötig | jetzt in app/ online verfügbar  |
 | N-53 | System | System | F-010: „muss das System“ | nciht notwendig | da = App |
-| N-54 | Backend | Backend | UC-02 Beteiligte Systeme: „Backend“ |  |  |
+| N-54 | Backend | Backend | UC-02 Beteiligte Systeme: „Backend“ | nicht nötig |  ? |
 | N-55 | Datenbank | Datenbank | UC-02 Beteiligte Systeme: „Datenbank für Anfragen, Helfer und Termine“ |  |  |
 | N-56 | SMS-Dienst | SMS-Dienst | UC-02: „SMS-Dienst“ | Objekt ? |  |
 | N-57 | Erinnerung, Erinnerungen | Erinnerung | UC-02 Nachbedingung: „Erinnerungen“ |  |  |
