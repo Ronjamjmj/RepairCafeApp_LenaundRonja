@@ -24,35 +24,35 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-20 | Gerätekategorie | Gerätekategorie | F-020: „Gerätekategorie“ |  |  |
 | N-21 | Küchengerät | Küchengerät | UC-02 Hauptablauf 2: „Küchengerät“ |  |  |
 | N-22 | Kaffeemaschine | Kaffeemaschine | UC-02 Hauptablauf 2: „Kaffeemaschine“ |  |  |
-| N-23 | Defekt | Defekt | US2: „den Defekt“ |  |  |
-| N-24 | Auswahl | Auswahl | US2: „über eine Auswahl“ |  |  |
+| N-23 | Defekt | Defekt | US2: „den Defekt“ | nicht nötig als Objekt  | = Problemn |
+| N-24 | Auswahl | Auswahl | US2: „über eine Auswahl“ |nciht nötig  | ?  |
 | N-25 | Problem, Probleme, Fehlerbilder | Problem / Fehlerbild | US2: „typischer Probleme“; UC-02: „Fehlerbilder“ | Attribut des Formulars in der App  |  |
 | N-26 | Fachbegriffe | Fachbegriff | US2: „keine Fachbegriffe“ | Attribut des Formulars |  |
 | N-27 | Foto, Fotos | Foto | US5: „Fotos vorab sehen“; F-090: „Foto des Typenschilds“ | Attribut des Formulars |  |
 | N-28 | Typenschild | Typenschild | UC-02 Hauptablauf 4: „Foto vom Typenschild“ | Attribut des Formulars |  |
-| N-29 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ |  |  |
+| N-29 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ | Attribut  | Helfer  |
 | N-30 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | Attrbiut des Helfers |  |
 | N-31 | Fähigkeiten, Fähigkeit | Fähigkeit | US8: „Fähigkeiten“; F-120: „gesuchten Fähigkeit“ | = kenntnisse, skills  |  |
 | N-32 | Profil, Profile | Profil | US8: „in Profilen“ |  |  |
 | N-33 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | Objekt / Attribut ? |  |
-| N-34 | Diagnosetermin | Diagnosetermin | US3: „Diagnosetermin“ |  |  |
+| N-34 | Diagnosetermin | Diagnosetermin | US3: „Diagnosetermin“ | Objekt  | aus App? auch Attribut ?  |
 | N-35 | Reparaturtermin | Reparaturtermin | US4: „Reparaturtermin“ |  |  |
 | N-36 | Termin, Termine, Zeitfenster | Termin / Zeitfenster | US3: „Termin“; UC-02 Vorbedingung: „freies Zeitfenster“ |  |  |
-| N-37 | Diagnose | Diagnose | US4: „nach der Diagnose“ |  |  |
+| N-37 | Diagnose | Diagnose | US4: „nach der Diagnose“ | Objket |  |
 | N-38 | Ersatzteil, Ersatzteile | Ersatzteil | US4: „das Teil“; F-040: „Ersatzteil“ |  |  |
 | N-39 | Ersatzteilempfehlung | Ersatzteilempfehlung | US4: „Ersatzteilempfehlung“ |  |  |
 | N-40 | Richtpreis | Richtpreis | US6: „Richtpreis“ |  |  |
-| N-41 | Handy | Handy | US4: „aufs Handy“ |  |  |
-| N-42 | Person | Person | US6: „die Person“ |  |  |
+| N-41 | Handy | Handy | US4: „aufs Handy“ | nicht nötig  | = in der App als objekt |
+| N-42 | Person | Person | US6: „die Person“ | nicht nnötig | = die Hilfesuchende  |
 | N-43 | Fachkundiger | Fachkundiger | US3: „ein Fachkundiger“ | nicht nötig  | = Helfer |
-| N-44 | Kalender | Kalender | UC-02 Nachbedingung: „Kalender des Helfers“ |  |  |
+| N-44 | Kalender | Kalender | UC-02 Nachbedingung: „Kalender des Helfers“ | nicht nötig  | = Attribut von Helfer weann er Zeit hat / friee Termine    |
 | N-45 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ |  |  |
 | N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ | Objket = Bewertung  |  |
 | N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ | Objekt |  |
-| N-48 | Stadt | Stadt | US9: „der Stadt“ |  |  |
+| N-48 | Stadt | Stadt | US9: „der Stadt“ | nicht nötig | ? |
 | N-49 | Fördergelder | Fördergeld | US9: „Fördergelder sichern“ |  |  |
 | N-50 | Ehrenamtliche, Ehrenamtlicher | Ehrenamtlicher | US10: „Ehrenamtliche“; US5: „ehrenamtlicher Helfer“ |nicht nötig   | = Sabine ?  |
-| N-51 | Einladung | Einladung | US10: „sie einladen“ |  |  |
+| N-51 | Einladung | Einladung | US10: „sie einladen“ | verb  | zugehörig zu Sabine und Ehrenamtliche  |
 | N-52 | Liste | Liste | US8: „handschriftliche Liste“ |  |  |
 | N-53 | System | System | F-010: „muss das System“ | nciht notwendig | da = App |
 | N-54 | Backend | Backend | UC-02 Beteiligte Systeme: „Backend“ |  |  |
