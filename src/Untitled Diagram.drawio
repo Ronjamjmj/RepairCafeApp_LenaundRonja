@@ -328,7 +328,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8WTsJ2DuHbIhQF11gqjI" name="UML Zustandsdiagramm">
-    <mxGraphModel dx="1107" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1469" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -459,7 +459,7 @@
           <mxGeometry height="60" width="60" x="575" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="ZR4O6x6P6PIMG4jnt_pk-5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Zustände&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Anfnagszustand&amp;nbsp;&lt;/li&gt;&lt;li&gt;Endzustand&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;BEispiele:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Entwurf/angelegt&lt;br&gt;&lt;/li&gt;&lt;li&gt;eingereicht/wartet auf Prüfung&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;angenommen/termin gebucht&lt;br&gt;&lt;/li&gt;&lt;li&gt;eingecheckt/ Warteschlange&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;In Reperatur&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Wartet auf Ersatzteil/pausiert&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Repariert/abgeschlossen&lt;br&gt;&lt;/li&gt;&lt;li&gt;nicht reparierbar&lt;br&gt;&lt;/li&gt;&lt;li&gt;storniert/abgebrochen&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="230" width="520.73" x="9.269999999999996" y="910" as="geometry" />
+          <mxGeometry height="310" width="520.73" x="9.27" y="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
