@@ -6,18 +6,18 @@ Weggelassen wurden technische Detailbegriffe, reine Ablaufelemente, Dubletten un
 
 | ID | Originalform(en) | Grundform / Mehrwortbegriff | Fundstelle(n) mit Originalbeleg | Begründung | Funktion im Objektmodell |
 |---|---|---|---|---|---|
-| N-01 | App, App | App | F-010: „Öffnen der App“; US1: „in der App sieht“ | Das System ist der gemeinsame Kontext aller Anforderungen. | |
-| N-03 | Hilfesuchende | Hilfesuchende | US1–US4: „Als Hilfesuchende“ | Eine zentrale Rolle, für die Registrierung, Anfrage und Termine relevant sind. | |
-| N-04 | Helfer, Helfers, Helfern | Helfer | US3: „zugewiesenen, bewerteten Helfer“; F-040: „Helfern“ | Zentrale Rolle für Auswahl, Diagnose, Verfügbarkeit und Bewertung. | |
-| N-05 | technischer Leiter | Technischer Leiter | F-080: „dem technischen Leiter“ | Eigene Rolle mit Prüfung und Zuweisung von Anfragen. | |
-| N-06 | Mitgründerin | Mitgründerin | US9: „Als Mitgründerin“ | Eigenständige Rolle für Café-Planung, Auswertung und Helfergewinnung. | |
-| N-09 | Name | Name | F-010: „mit Name“ | Pflichteingabe bei der Kurzregistrierung und Identifikation der Hilfesuchenden. | |
-| N-10 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | Oberbegriff für die für Registrierung und Benachrichtigung benötigten Kontaktdaten. | |
-| N-11 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | Benötigte Registrierungs- und Kontaktangabe mit eigener Validierung. | |
-| N-12 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | Alternativer Registrierungskanal und mögliche Benachrichtigungsadresse. | |
-| N-13 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | Registrierungsangabe und Grundlage für räumliche Zuordnung. | |
-| N-15 | Registrierung, Kurzregistrierung | Registrierung | F-010: „Kurzregistrierung“ | Eigenständiger Prozess für den Einstieg in die App. | |
-| N-16 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung | Das Registrierungsziel und die Zuordnung zu Anfragen und Terminen. | |
+| N-01 | App, App | App | F-010: „Öffnen der App“; US1: „in der App sieht“ | Das System ist der gemeinsame Kontext aller Anforderungen. | objekt hauptobjekt|
+| N-03 | Hilfesuchende | Hilfesuchende | US1–US4: „Als Hilfesuchende“ | Eine zentrale Rolle, für die Registrierung, Anfrage und Termine relevant sind. | sabine objekt|
+| N-04 | Helfer, Helfers, Helfern | Helfer | US3: „zugewiesenen, bewerteten Helfer“; F-040: „Helfern“ | Zentrale Rolle für Auswahl, Diagnose, Verfügbarkeit und Bewertung. | jonas objekt|
+| N-05 | technischer Leiter | Technischer Leiter | F-080: „dem technischen Leiter“ | Eigene Rolle mit Prüfung und Zuweisung von Anfragen. | martin objekt|
+| N-06 | Mitgründerin | Mitgründerin | US9: „Als Mitgründerin“ | Eigenständige Rolle für Café-Planung, Auswertung und Helfergewinnung. | rosa objekt |
+| N-09 | Name | Name | F-010: „mit Name“ | Pflichteingabe bei der Kurzregistrierung und Identifikation der Hilfesuchenden. | attribut |
+| N-10 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | Oberbegriff für die für Registrierung und Benachrichtigung benötigten Kontaktdaten. | attribut email / telnr |
+| N-11 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | Benötigte Registrierungs- und Kontaktangabe mit eigener Validierung. | attribut|
+| N-12 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | Alternativer Registrierungskanal und mögliche Benachrichtigungsadresse. | attribut |
+| N-13 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | Registrierungsangabe und Grundlage für räumliche Zuordnung. | Attribut |
+| N-15 | Registrierung, Kurzregistrierung | Registrierung | F-010: „Kurzregistrierung“ | Eigenständiger Prozess für den Einstieg in die App. | objekt? |
+| N-16 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung | Das Registrierungsziel und die Zuordnung zu Anfragen und Terminen. | objekt / attribut der app |
 | N-17 | Reparaturanfrage, Anfragen | Reparaturanfrage / Anfrage | US7: „neue Anfragen“; F-020: „Reparaturanfrage“ | Zentrale fachliche Einheit, die geprüft, zugewiesen und bearbeitet wird. | |
 | N-18 | Warteliste | Warteliste | UC-02 Ausnahme 5e: „Anfrage kommt auf eine Warteliste“ | Beschreibt einen erkennbaren Ablaufzustand für nicht sofort zuweisbare Anfragen. | |
 | N-19 | Gerät, Geräte | Gerät | US3: „was am Gerät kaputt ist“ | Gegenstand der Reparaturanfrage und des Reparaturablaufs. | |
