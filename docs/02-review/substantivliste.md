@@ -32,7 +32,7 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-28 | Typenschild | Typenschild | UC-02 Hauptablauf 4: „Foto vom Typenschild“ | nötig | Attribut des Formulars |
 | N-29 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ | Attribut  | Helfer  |
 | N-30 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | nötig | Attrbiut des Helfers |
-| N-31 | Fähigkeiten, Fähigkeit | Fähigkeit | US8: „Fähigkeiten“; F-120: „gesuchten Fähigkeit“ | = kenntnisse, skills  |  |
+| N-31 | Fähigkeiten, Fähigkeit | Fähigkeit | US8: „Fähigkeiten“; F-120: „gesuchten Fähigkeit“ | nicht nötig  | = kenntnisse, skills (doppelt!) |
 | N-32 | Profil, Profile | Profil | US8: „in Profilen“ | nötig  | Objekt in App?  |
 | N-33 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | nötig | Objekt / Attribut ?  |
 | N-34 | Diagnosetermin | Diagnosetermin | US3: „Diagnosetermin“ | Objekt  | aus App? auch Attribut ?  |
@@ -47,7 +47,7 @@ Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderun
 | N-43 | Fachkundiger | Fachkundiger | US3: „ein Fachkundiger“ | nicht nötig  | = Helfer |
 | N-44 | Kalender | Kalender | UC-02 Nachbedingung: „Kalender des Helfers“ | nicht nötig  | = Attribut von Helfer weann er Zeit hat / friee Termine    |
 | N-45 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ | nötig  | Objekt Cafe Termin |
-| N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ |   | Objekt = Bewertung |
+| N-46 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ |  nötig | Objekt = Bewertung |
 | N-47 | Reparatur, Reparaturen | Reparatur | US9: „Auswertungen zu Reparaturen“ | nicht nötig |doppelt (mit Reparaturtermin)! |
 | N-48 | Stadt | Stadt | US9: „der Stadt“ | nicht nötig | ? |
 | N-49 | Fördergelder | Fördergeld | US9: „Fördergelder sichern“ | evtl nötig | Sabine macht das aber geriengfügig projektbezofgen  |
