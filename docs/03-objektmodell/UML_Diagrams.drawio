@@ -1,31 +1,11 @@
-<mxfile host="drawio-plugin" modified="2026-11-21T12:31:01.130Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="QooTvFnUgE5rGK48A4lx" version="22.1.22" type="embed" pages="4">
+<mxfile host="drawio-plugin" modified="2026-11-21T14:03:00.210Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="Hmeyoizcrd7_3OmVbhXK" version="22.1.22" type="embed" pages="4">
   <diagram name="UML Objektdiagramm" id="6w7iLH8OgvT81hZKhVNR">
-    <mxGraphModel dx="778" dy="298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_sT8Pgj_RB5Zf7qSCXnd-44" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;i&gt;Repair Cafe Objektdiagramm&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="40" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3TGiAj44HF88GcBufOcT-1" value="" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="660" as="sourcePoint" />
-            <mxPoint x="180" y="660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3TGiAj44HF88GcBufOcT-2" value="registriert" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="3TGiAj44HF88GcBufOcT-1" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3TGiAj44HF88GcBufOcT-3" value="" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="630" as="sourcePoint" />
-            <mxPoint x="180" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DH4Y_vJLoea9VIxZHzzL-2" value="prüft" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3TGiAj44HF88GcBufOcT-3">
-          <mxGeometry x="0.11" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="3TGiAj44HF88GcBufOcT-5" value="" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -52,7 +32,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3TGiAj44HF88GcBufOcT-12" value="plant" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="3TGiAj44HF88GcBufOcT-11" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3TGiAj44HF88GcBufOcT-13" value="" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -61,15 +43,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3TGiAj44HF88GcBufOcT-14" value="sendet" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="3TGiAj44HF88GcBufOcT-13" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3TGiAj44HF88GcBufOcT-15" value="" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="1120" as="sourcePoint" />
-            <mxPoint x="180" y="1120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3TGiAj44HF88GcBufOcT-16" value="schätzt ein" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="3TGiAj44HF88GcBufOcT-15" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3TGiAj44HF88GcBufOcT-17" value="" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
@@ -108,15 +81,6 @@
         <mxCell id="3TGiAj44HF88GcBufOcT-24" value="Label" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="3TGiAj44HF88GcBufOcT-23" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3TGiAj44HF88GcBufOcT-25" value="" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="1060" as="sourcePoint" />
-            <mxPoint x="180" y="1060" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3TGiAj44HF88GcBufOcT-26" value="Label" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="3TGiAj44HF88GcBufOcT-25" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Xw7N1v0nSXdAOA76oQOX-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="570" y="1140" as="sourcePoint" />
@@ -135,65 +99,47 @@
             <mxPoint x="550" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xw7N1v0nSXdAOA76oQOX-15" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object:Technischer Leiter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Martin&quot;;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="31" y="710" width="160" height="90" as="geometry" />
+        <mxCell id="EqFqNNm77CiBsxASiGiJ-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;martin: Technischer Leiter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Martin Hoffmann&quot;&lt;br&gt;fachgebiet = Elektrotechnik, Mechanik&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="240" y="140" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EqFqNNm77CiBsxASiGiJ-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object: Gerät&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="210" y="570" width="160" height="90" as="geometry" />
+        <mxCell id="EqFqNNm77CiBsxASiGiJ-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;jonas: Helfer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Jonas Keller&quot;&lt;br&gt;fachgebiet = Elektrotechnik&lt;br&gt;termin = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="240" y="370" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EqFqNNm77CiBsxASiGiJ-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;martin: Technischer Leiter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Martin Hoffmann&quot;&lt;br&gt;fachgebiet = elektrotechnik&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="226" y="140" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="EqFqNNm77CiBsxASiGiJ-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object:&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="400" y="530" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="EqFqNNm77CiBsxASiGiJ-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;jonas: Helfer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Jonas Keller&quot;&lt;br&gt;fachgebiet = Elektrotechnik&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="386" y="380" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="EqFqNNm77CiBsxASiGiJ-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;rosa: Mitgründerin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Rosa Müller&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="210" y="350" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="EqFqNNm77CiBsxASiGiJ-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;rosa: Hilfesuchende&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Sabine Weber&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="250" width="160" height="90" as="geometry" />
+        <mxCell id="EqFqNNm77CiBsxASiGiJ-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;sabine: Hilfesuchende&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;Sabine Weber&quot;&lt;br&gt;benutzername = sabine.weber@gmail.com&lt;br&gt;plz = YYYYY&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;telefonnummer = XXXXXXXXX&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="26" y="240" width="184" height="120" as="geometry" />
         </mxCell>
         <mxCell id="kXXXcoIe1fRVXpVaZckE-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object: Reparatur&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="240" y="250" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kXXXcoIe1fRVXpVaZckE-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object:&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="450" y="700" width="160" height="90" as="geometry" />
+        <mxCell id="kXXXcoIe1fRVXpVaZckE-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;anfrage1 : Reparaturanfrage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;status = ZUGEWIESEN&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;geprüft = true&lt;br&gt;field2 = value2&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="250" y="640" width="204" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="kXXXcoIe1fRVXpVaZckE-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object: Reparaturanfrage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="206" y="470" width="160" height="90" as="geometry" />
+        <mxCell id="kXXXcoIe1fRVXpVaZckE-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;foto1: Foto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;dateiname = defekt1.img&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="38" y="410" width="156" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kXXXcoIe1fRVXpVaZckE-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object:&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="240" y="700" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="kXXXcoIe1fRVXpVaZckE-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object: Foto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="26" y="350" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="kXXXcoIe1fRVXpVaZckE-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Object: Benutzerkonto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name = &quot;&quot;&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="26" y="480" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="kXXXcoIe1fRVXpVaZckE-8" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;kaffemaschine1 : Gerät&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;gerätekategorie = Küchengerät&lt;br&gt;ausgewähltesGerät = kaffemaschine&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="110" width="170" height="110" as="geometry" />
+        <mxCell id="kXXXcoIe1fRVXpVaZckE-8" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;kaffemaschine1 : Gerät&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;gerätekategorie = Küchengerät&lt;br&gt;ausgewähltesGerät = kaffemaschine&lt;br&gt;problem = &quot;Kein Druck, Brummen&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="26" y="100" width="204" height="90" as="geometry" />
         </mxCell>
         <mxCell id="C7IE53GGY-9xMpSiWtym-1" value="&lt;p dir=&quot;ltr&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Was im Objektdiagramm steht&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul dir=&quot;ltr&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;li style=&quot;font-size: 10px;&quot;&gt;&lt;strong style=&quot;font-size: 10px;&quot;&gt;konkreter Zeitpunkt:&lt;/strong&gt;&amp;nbsp;fachliche Prüfung abgeschlossen &amp;amp; an Helfer zugewiesen&lt;/li&gt;&lt;li style=&quot;font-size: 10px;&quot;&gt;&lt;strong style=&quot;font-size: 10px;&quot;&gt;Instanzen:&lt;/strong&gt; Jeder Kasten ist ein konkretes Objekt, mit Kopf &lt;code dir=&quot;ltr&quot; style=&quot;font-size: 10px;&quot;&gt;objektname : Klassenname&lt;/code&gt;, unterstrichen.&lt;/li&gt;&lt;li style=&quot;font-size: 10px;&quot;&gt;&lt;strong style=&quot;font-size: 10px;&quot;&gt;Attributbereich:&lt;/strong&gt; Attribute mit konkreten Werten, z. B. &lt;code dir=&quot;ltr&quot; style=&quot;font-size: 10px;&quot;&gt;name = &quot;…&quot;&lt;/code&gt;. Ein Datentyp steht dort normalerweise nicht.&lt;/li&gt;&lt;li style=&quot;font-size: 10px;&quot;&gt;&lt;strong style=&quot;font-size: 10px;&quot;&gt;Verbindungen:&lt;/strong&gt; Einfache Linien (Links) zwischen den Instanzen.&lt;/li&gt;&lt;li style=&quot;font-size: 10px;&quot;&gt;(Beziehungen: &amp;lt;&amp;lt;innclude&amp;gt;&amp;gt; und &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; )&lt;/li&gt;&lt;li style=&quot;font-size: 10px;&quot;&gt;&lt;strong style=&quot;font-size: 10px;&quot;&gt;Nicht dabei:&lt;/strong&gt; Methodenbereich und Multiplizitäten. Beides gehört zur Klasse bzw. zur Beziehung zwischen Klassen.&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot; style=&quot;font-size: 10px;&quot;&gt;Der Klassenname steht trotzdem im Kopf jedes Objekts. Ihr müsst also wissen, welcher Typ hinter jedem Objekt steckt, zeichnet aber keine Klassen. Verben aus eurer Tabelle (z. B. „Einladung“ als „verb“) kommen nur ins Diagramm, wenn es dazu ein Objekt gibt, das gespeichert wird&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;font-size: 10px;&quot;&gt;Klassen: App, Reperatur&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="430" y="20" width="350" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="DH4Y_vJLoea9VIxZHzzL-1" value="&lt;h1&gt;Objekte&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;App&lt;/li&gt;&lt;li&gt;Reparatur&lt;/li&gt;&lt;li&gt;Diagnose&lt;/li&gt;&lt;li&gt;Termin&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="280" width="140" height="130" as="geometry" />
+        <mxCell id="DH4Y_vJLoea9VIxZHzzL-1" value="&lt;h1&gt;Objekte&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Ergebnis von Klasse + Instanz: den Klassen wird je eine Instanz zugewiesen&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="yU6a0nN7URztnFiVjanr-1" value="&lt;h1&gt;Instanzen&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reparatur1&lt;/span&gt;&lt;/li&gt;&lt;li&gt;diagnose1&lt;/li&gt;&lt;li&gt;termin1&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="280" width="133" height="120" as="geometry" />
+          <mxGeometry x="650" y="280" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bfJCYtvz4LieY8Nh1W1s-1" value="&lt;h1&gt;Klassen&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Helfer&lt;/li&gt;&lt;li&gt;Hilfesuchende&lt;/li&gt;&lt;li&gt;Technische Leitung&amp;nbsp;&lt;/li&gt;&lt;li&gt;Reparaturanfrage&lt;/li&gt;&lt;li&gt;Gerät&amp;nbsp;&lt;/li&gt;&lt;li&gt;Benutzerkonto&lt;/li&gt;&lt;li&gt;Foto&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="440" width="190" height="170" as="geometry" />
+        <mxCell id="bfJCYtvz4LieY8Nh1W1s-1" value="&lt;h1&gt;Klassen&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Helfer&lt;/li&gt;&lt;li&gt;Hilfesuchende&lt;/li&gt;&lt;li&gt;Technische Leitung&amp;nbsp;&lt;/li&gt;&lt;li&gt;Reparaturanfrage&lt;/li&gt;&lt;li&gt;Gerät&amp;nbsp;&lt;/li&gt;&lt;li&gt;(Benutzerkonto)&lt;/li&gt;&lt;li&gt;Foto&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nf5IYD55cQ1l09l7G2dq-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;dianose1 : Diagnosetermin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;status = OFFEN&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="26" y="590" width="204" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="8WTsJ2DuHbIhQF11gqjI" name="UML Zustandsdiagramm">
-    <mxGraphModel dx="778" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="999" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
