@@ -16,7 +16,7 @@ Weggelassen wurden technische Detailbegriffe, reine Ablaufelemente, Dubletten un
 | N-08 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | Benötigte Registrierungs- und Kontaktangabe mit eigener Validierung. | attribut|
 | N-09 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | Alternativer Registrierungskanal und mögliche Benachrichtigungsadresse. | attribut |
 | N-10 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | Registrierungsangabe und Grundlage für räumliche Zuordnung. | Attribut |
-| N-11 | Registrierung, Kurzregistrierung | Registrierung | F-010: „Kurzregistrierung“ | Eigenständiger Prozess für den Einstieg in die App. | instanz? |
+| N-11 | Benutzerkonto | Benutzerkonto | F-010: „Kurzregistrierung“ | Eigenständiger Prozess für den Einstieg in die App. | instanz? |
 | N-12 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung | Das Registrierungsziel und die Zuordnung zu Anfragen und Terminen. | instanz / attribut der app |
 | N-13 | Reparaturanfrage, Anfragen | Reparaturanfrage / Anfrage | US7: „neue Anfragen“; F-020: „Reparaturanfrage“ | Zentrale fachliche Einheit, die geprüft, zugewiesen und bearbeitet wird. | instanz |
 | N-14 | Gerät, Geräte | Gerät | US3: „was am Gerät kaputt ist“ | Gegenstand der Reparaturanfrage und des Reparaturablaufs. | instanz |
