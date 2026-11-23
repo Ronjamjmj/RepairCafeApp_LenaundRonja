@@ -1,6 +1,6 @@
 # User Stories – Repair-Café-App
 
-**Format:** Als `[Rolle]` `[möchte / will / muss]` ich [etwas tun], damit [Grund].
+**Format:** Als `[Rolle]` `[möchte / will / muss]` ich `[etwas tun]`, damit `[Grund]`.
 Basierend auf den Personas Sabine, Jonas, Rosa und Martin.
 
 | ID | User Story | Persona | Priorität |
