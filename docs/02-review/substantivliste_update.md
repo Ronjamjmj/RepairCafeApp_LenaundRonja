@@ -1,42 +1,54 @@
 # Substantivliste: als nötig bewertete Begriffe
 
 Prüfung der Einordnung aus `docs/02-review/substantivliste.md`.
-Aufgenommen wurden Begriffe mit eigenständiger fachlicher Bedeutung für Anmeldung, Reparaturanfrage, Terminierung, Diagnose, Ersatzteile, Rollen oder Auswertungen.
-Weggelassen wurden technische Detailbegriffe, reine Ablaufelemente, Dubletten und Begriffe, die bereits durch einen allgemeineren oder gleichbedeutenden Begriff abgedeckt werden.
+
+Aufgenommen wurden Begriffe mit eigenständiger fachlicher Bedeutung für Anmeldung, Reparaturanfrage, Terminierung, Diagnose, Ersatzteile, Rollen oder Auswertungen. Weggelassen wurden technische Detailbegriffe, reine Ablaufelemente, Dubletten und Begriffe, die bereits durch einen allgemeineren oder gleichbedeutenden Begriff abgedeckt werden.
 
 | ID | Originalform(en) | Grundform / Mehrwortbegriff | Fundstelle(n) mit Originalbeleg | Begründung | Funktion im Objektmodell |
 |---|---|---|---|---|---|
-| N-01 | App, App | App | F-010: „Öffnen der App“; US1: „in der App sieht“ | Das System ist der gemeinsame Kontext aller Anforderungen. | instanz instanz|
-| N-02 | Hilfesuchende | Hilfesuchende | US1–US4: „Als Hilfesuchende“ | Eine zentrale Rolle, für die Registrierung, Anfrage und Termine relevant sind. | sabine instanz|
-| N-03 | Helfer, Helfers, Helfern | Helfer | US3: „zugewiesenen, bewerteten Helfer“; F-040: „Helfern“ | Zentrale Rolle für Auswahl, Diagnose, Verfügbarkeit und Bewertung. | jonas instanz|
-| N-04 | technischer Leiter | Technischer Leiter | F-080: „dem technischen Leiter“ | Eigene Rolle mit Prüfung und Zuweisung von Anfragen. | martin instanz|
-| N-05 | Mitgründerin | Mitgründerin | US9: „Als Mitgründerin“ | Eigenständige Rolle für Café-Planung, Auswertung und Helfergewinnung. | rosa instanz |
-| N-06 | Name | Name | F-010: „mit Name“ | Pflichteingabe bei der Kurzregistrierung und Identifikation der Hilfesuchenden. | attribut |
-| N-07 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | Oberbegriff für die für Registrierung und Benachrichtigung benötigten Kontaktdaten. | attribut email / telnr |
-| N-08 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | Benötigte Registrierungs- und Kontaktangabe mit eigener Validierung. | attribut|
-| N-09 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | Alternativer Registrierungskanal und mögliche Benachrichtigungsadresse. | attribut |
-| N-10 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | Registrierungsangabe und Grundlage für räumliche Zuordnung. | Attribut |
-| N-11 | Benutzerkonto | Benutzerkonto | F-010: „Kurzregistrierung“ | Eigenständiger Prozess für den Einstieg in die App. | instanz? |
-| N-12 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung | Das Registrierungsziel und die Zuordnung zu Anfragen und Terminen. | instanz / attribut der app |
-| N-13 | Reparaturanfrage, Anfragen | Reparaturanfrage / Anfrage | US7: „neue Anfragen“; F-020: „Reparaturanfrage“ | Zentrale fachliche Einheit, die geprüft, zugewiesen und bearbeitet wird. | instanz |
-| N-14 | Gerät, Geräte | Gerät | US3: „was am Gerät kaputt ist“ | Gegenstand der Reparaturanfrage und des Reparaturablaufs. | instanz |
-| N-15 | Gerätekategorie | Gerätekategorie | F-020: „Gerätekategorie“ | Dient der Auswahltypisierung und der Zuordnung passender Helfer. |attribut |
-| N-16 | Problem, Probleme, Fehlerbilder | Problem / Fehlerbild | US2: „typischer Probleme“; UC-02: „Fehlerbilder“ | Beschreibt den vom Gerät gemeldeten Defekt und benötigt eine Auswahl im Formular. | attribut|
-| N-17 | Foto, Fotos | Foto | US5: „Fotos vorab sehen“; F-090: „Foto des Typenschilds“ | Zusätzliche Anfragedaten zur Vorbereitung und Identifikation des Geräts. | attribut |
-| N-18 | Typenschild | Typenschild | UC-02 Hauptablauf 4: „Foto vom Typenschild“ | Bestimmt das Foto und enthält relevante Geräteinformationen. | attribut|
-| N-19 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ | Grundlage für das Filtern und die Zuordnung von Anfragen. | attribut |
-| N-20 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | Qualifikation zur fachlichen Zuordnung eines Helfers. | attribut|
-| N-21 | Profil, Profile | Profil | US8: „in Profilen“ | Enthält die verwalteten Fähigkeiten und Qualifikationen eines Helfers. | instanz? |
-| N-22 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | Hilft Hilfesuchenden bei der Auswahl eines Helfers und ist fachlich vom Termin getrennt. |instanz<br/> |
-| N-23 | Diagnosetermin | Diagnosetermin | US3: „Diagnosetermin“ | Termin mit eigenem Zweck: Diagnose des Geräts durch einen Helfer. | instanz |
-| N-24 | Reparaturtermin | Reparaturtermin | US4: „Reparaturtermin“ | Eigenständiger Termin nach Beschaffung des Ersatzteils. |instanz |
-| N-25 | Termin, Termine, Zeitfenster | Termin / Zeitfenster | US3: „Termin“; UC-02 Vorbedingung: „freies Zeitfenster“ | Gemeinsamer Kern für Diagnose, Reparatur, Verfügbarkeit und Erinnerungen. |attribut |
-| N-26 | Diagnose | Diagnose | US4: „nach der Diagnose“ | Ergebnis des Diagnosetermins und Grundlage für die Ersatzteilempfehlung. | |
-| N-27 | Ersatzteil, Ersatzteile | Ersatzteil | US4: „das Teil“; F-040: „Ersatzteil“ | Benanntes Reparaturbedürfnis mit Kauf- und Beschaffungsbezug. |instanz  |
-| N-28 | Ersatzteilempfehlung | Ersatzteilempfehlung | US4: „Ersatzteilempfehlung“ | Verknüpft Diagnose, Ersatzteil und den späteren Reparaturtermin. | instanz |
-| N-29 | Richtpreis | Richtpreis | US6: „Richtpreis“ | Optionales Kaufmerkmal der Ersatzteilempfehlung. | attribut |
-| N-30 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ | Eigenständiger Termin für die Organisationsseite des Repair-Cafés. | instanz|
-| N-31 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ | Rückgabe von Erfolgen und Reparaturdaten für Förder- und Berichtszwecke. | instanz|
-| N-32 | Einladung | Einladung | US10: „sie einladen“ | Beschreibt den konkreten Schritt der Helfergewinnung. |verb |
-| N-33 | Datenbank | Datenbank | UC-02 Beteiligte Systeme: „Datenbank für Anfragen, Helfer und Termine“ | Belegt die persistente Verwaltung der zentralen fachlichen Daten. |  |
-| N-34 | Benachrichtigung | Benachrichtigung | F-100: „SMS-Erinnerung“ | Eigenständiges Benachrichtigungsziel für Terminbuchungen. | instanz |
+| N-01 | App, App | App | F-010: „Öffnen der App“; US1: „in der App sieht“ | Das System bildet den gemeinsamen Kontext aller Anforderungen und verwaltet die fachlichen Objekte. | Gesamtsystem; keine fachliche Klasse des Objektmodells. |
+| N-02 | Hilfesuchende | Hilfesuchende | US1–US4: „Als Hilfesuchende“ | Zentrale Nutzerrolle, für die Registrierung, Reparaturanfragen und Termine relevant sind. | Rolle eines Nutzers. Eine konkrete Person, z. B. Sabine, ist ein Objekt der Klasse Nutzer. |
+| N-03 | Helfer, Helfers, Helfern | Helfer | US3: „zugewiesenen, bewerteten Helfer“; F-040: „Helfern“ | Nutzerrolle mit Fachkenntnissen und Verfügbarkeit, der Reparaturanfragen zugewiesen werden kann. | Rolle eines Nutzers. Ein konkreter Helfer, z. B. Jonas, ist ein Objekt der Klasse Nutzer. Helferspezifische Daten können über zugeordnete Skills und Verfügbarkeiten abgebildet werden. |
+| N-04 | technischer Leiter | Technischer Leiter | F-080: „dem technischen Leiter“ | Nutzer mit besonderen Berechtigungen zur Prüfung und Zuweisung von Reparaturanfragen. | Rolle eines Nutzers mit entsprechenden Berechtigungen. Ein konkreter technischer Leiter, z. B. Martin, ist ein Objekt der Klasse Nutzer. |
+| N-05 | Mitgründerin | Mitgründerin | US9: „Als Mitgründerin“ | Nutzerrolle für organisatorische Aufgaben wie Café-Planung, Auswertung und Helfergewinnung. | Organisatorische Rolle eines Nutzers. Eine konkrete Mitgründerin, z. B. Rosa, ist ein Objekt der Klasse Nutzer. |
+| N-06 | Name | Name | F-010: „mit Name“ | Pflichteingabe bei der Kurzregistrierung und zur Identifikation des Nutzers. | Attribut der Klasse Nutzer. |
+| N-07 | Kontaktangabe, Kontaktangaben | Kontaktangabe | US1: „Kontaktangabe“; F-010: „Kontaktangabe“ | Oberbegriff für Kontaktdaten. Da unterschiedliche Arten von Kontaktangaben mit eigenen Eigenschaften und Validierungen existieren, wird eine abstrakte Klasse mit spezialisierten Unterklassen vorgesehen. | Abstrakte Klasse Kontaktangabe. |
+| N-08 | Telefonnummer | Telefonnummer | US1: „Telefonnummer“ | Benötigte Registrierungs- und Kontaktangabe mit eigenen Eigenschaften und Validierungsregeln. | Unterklasse von Kontaktangabe. |
+| N-09 | E-Mail-Adresse, E-Mail | E-Mail-Adresse / E-Mail | US1: „E-Mail-Adresse“; UC-02: „E-Mail“ | Alternative Kontaktangabe und mögliche Benachrichtigungsadresse mit eigenen Validierungsregeln. | Unterklasse von Kontaktangabe. |
+| N-10 | Postleitzahl | Postleitzahl | US1: „Postleitzahl“ | Gibt den Standort des Nutzers näher an und ermöglicht eine regionale Zuordnung. | Attribut von Nutzer bzw. Profil. |
+| N-11 | Benutzerkonto | Benutzerkonto | F-010: „Kurzregistrierung“ | Ermöglicht die Anmeldung und Verwaltung des Zugangs zur App; kann Login-Daten und einen Aktivierungsstatus besitzen. | Klasse Konto, sofern Zugangsdaten und Kontostatus getrennt von den Nutzerdaten verwaltet werden. |
+| N-12 | Konto | Konto | F-010: „registrieren“; UC-02 Nachbedingung | Bezeichnet dasselbe fachliche Konzept wie Benutzerkonto. | Dublette zu N-11; mit Benutzerkonto zusammenführen. |
+| N-13 | Reparaturanfrage, Anfragen | Reparaturanfrage / Anfrage | US7: „neue Anfragen“; F-020: „Reparaturanfrage“ | Zentrale fachliche Einheit, die erstellt, geprüft, zugewiesen und bearbeitet wird. | Klasse Reparaturanfrage. |
+| N-14 | Gerät, Geräte | Gerät | US3: „was am Gerät kaputt ist“ | Gegenstand, auf den sich die Reparaturanfrage bezieht; besitzt gerätespezifische Eigenschaften. | Klasse Gerät. Ein konkretes Gerät, z. B. Sabines Toaster, ist ein Objekt dieser Klasse. |
+| N-15 | Gerätekategorie | Gerätekategorie | F-020: „Gerätekategorie“ | Klassifiziert Geräte und unterstützt die Auswahl sowie Zuordnung passender Helfer. | Attribut bzw. Enum von Gerät bei festgelegten Kategorien; alternativ eigenständige Klasse bei administrierbaren Kategorien. |
+| N-16 | Problem, Probleme, Fehlerbilder | Problem / Fehlerbild | US2: „typischer Probleme“; UC-02: „Fehlerbilder“ | Beschreibt den Defekt und ermöglicht eine verständliche Auswahl oder Eingabe des Problems. | Attribut der Reparaturanfrage, z. B. Fehlerbeschreibung. Bei einem festen Fehlerkatalog ggf. Enum oder eigene Klasse Fehlerbild. |
+| N-17 | Foto, Fotos | Foto | US5: „Fotos vorab sehen“; F-090: „Foto des Typenschilds“ | Foto ist ein eigenständig verwaltbarer Anhang mit Dateiname, Speicherort, Upload-Datum und Zuordnung zur Anfrage bzw. zum Gerät. | Klasse Foto. |
+| N-18 | Typenschild | Typenschild | UC-02 Hauptablauf 4: „Foto vom Typenschild“ | Das Typenschild liefert Geräteinformationen; ein Foto davon ist eine besondere Art von Foto. | Keine eigenständige Klasse, sofern nur das Foto des Typenschilds gespeichert wird. Kennzeichnung bzw. Fotoart des Fotos. |
+| N-19 | Fachgebiet, Fachgebiete | Fachgebiet | US5: „Fachgebiet“ | Beschreibt den fachlichen Bereich eines Helfers und ermöglicht die Suche bzw. Zuordnung. | Enum oder eigenständige Klasse Fachgebiet, abhängig davon, ob Fachgebiete festgelegt oder administrierbar sind. |
+| N-20 | Skills, Kenntnisse | Skill / Kenntnisse | US7: „anhand der Skills“; F-080: „Kenntnisse“ | Beschreibt konkrete Fähigkeiten eines Helfers. Da ein Helfer mehrere Skills besitzen kann und Skills mehreren Helfern zugeordnet sein können, ist eine eigene Klasse sinnvoll. | Klasse Skill mit einer Mehrfachzuordnung zu Nutzern bzw. Helfern. |
+| N-21 | Profil, Profile | Profil | US8: „in Profilen“; Bezug zu Benutzerkonto | Bündelt nutzerbezogene Informationen und dient der Darstellung bzw. Verwaltung von Nutzerdaten. | Bestandteil von Nutzer bzw. Konto oder eigenständige Klasse Profil, sofern separat verwaltet. |
+| N-22 | Bewertung, Bewertungen | Bewertung | US3: „bewerteten Helfer“; UC-02 Hauptablauf 5: „Bewertungen“ | Hilft Hilfesuchenden bei der Auswahl eines Helfers und ist fachlich vom Termin getrennt. | Klasse Bewertung mit Attributen wie Bewertungsinhalt, Sternebewertung und Datum. |
+| N-23 | Diagnosetermin | Diagnosetermin | US3: „Diagnosetermin“ | Ein Termin zur Untersuchung des Geräts; unterscheidet sich durch seine Terminart von einem Reparaturtermin. | Konkretes Objekt der Klasse Termin mit der Terminart „Diagnose“. |
+| N-24 | Reparaturtermin | Reparaturtermin | US4: „Reparaturtermin“ | Termin zur Durchführung der Reparatur. Diagnose- und Reparaturtermine können durch eine gemeinsame Klasse mit unterschiedlichen Terminarten modelliert werden. | Konkretes Objekt der Klasse Termin mit der Terminart „Reparatur“. |
+| N-25 | Termin, Termine, Zeitfenster | Termin / Zeitfenster | US3: „Termin“; UC-02 Vorbedingung: „freies Zeitfenster“ | Termine besitzen Datum, Uhrzeit, Dauer und Beteiligte. Zeitfenster beschreibt die Verfügbarkeit und ist von einem gebuchten Termin zu unterscheiden. | Klasse Termin. Zeitfenster kann bei eigenständiger Verwaltung der Verfügbarkeiten eine separate Klasse sein. |
+| N-26 | Diagnose, Defekt | Diagnose | US4: „nach der Diagnose“ | Ergebnis der Untersuchung des Geräts und Grundlage für die Reparaturentscheidung und Ersatzteilempfehlung. | Klasse Diagnose mit Befund und Zuordnung zum Gerät bzw. zur Reparaturanfrage. |
+| N-27 | Ersatzteil, Ersatzteile | Ersatzteil | US4: „das Teil“; F-040: „Ersatzteil“ | Ein benötigtes Ersatzteil kann eine Bezeichnung, Preis, Menge und ggf. Verfügbarkeit besitzen. | Klasse Ersatzteil. |
+| N-28 | Ersatzteilempfehlung | Ersatzteilempfehlung | US4: „Ersatzteilempfehlung“ | Verknüpft eine Diagnose mit einem oder mehreren empfohlenen Ersatzteilen und kann eigene Angaben wie Richtpreis, Menge oder Status enthalten. | Klasse bzw. Assoziationsklasse zwischen Diagnose und Ersatzteil. |
+| N-29 | Richtpreis | Richtpreis | US6: „Richtpreis“ | Optionales Preismerkmal einer Ersatzteilempfehlung. | Attribut der Ersatzteilempfehlung, sofern sich der Richtpreis auf die konkrete Empfehlung bezieht. |
+| N-30 | Café-Termine | Café-Termin | US9: „Café-Termine planen“ | Ein organisatorischer Repair-Café-Termin mit Datum, Ort und Zeit; unterscheidet sich von individuellen Diagnose- und Reparaturterminen. | Klasse Café-Termin bzw. Veranstaltung; ggf. Spezialisierung einer allgemeinen Veranstaltungsklasse. |
+| N-31 | Auswertung, Auswertungen | Auswertung | US9: „Auswertungen zu Reparaturen“ | Bereitstellung von Reparaturdaten und Erfolgen für Förder- und Berichtszwecke. | Funktion zur Erstellung von Auswertungen; bei Speicherung oder eigenständiger Verwaltung ggf. Klasse Auswertung bzw. Bericht. |
+| N-32 | Einladung | Einladung | US10: „sie einladen“ | Einladung zur Helfergewinnung; bei Verwaltung von Empfänger, Datum und Status sinnvoll als eigene Klasse. | Klasse Einladung, sofern Einladungen mit eigenen Daten und Status verwaltet werden; ansonsten Funktion. |
+| N-33 | Datenbank | Datenbank | UC-02 Beteiligte Systeme: „Datenbank für Anfragen, Helfer und Termine“ | Belegt die persistente Verwaltung der zentralen fachlichen Daten. | Technische Komponente; keine fachliche Klasse des Objektmodells. |
+| N-34 | Benachrichtigung | Benachrichtigung | F-100: „SMS-Erinnerung“ | Eigenständige Benachrichtigung für Terminbuchungen oder Erinnerungen mit Empfänger, Inhalt, Zeitpunkt und Status. | Klasse Benachrichtigung, sofern Benachrichtigungen verwaltet bzw. nachverfolgt werden. |
+
+## Ergänzende Modellierungsentscheidung: Rollen und Berechtigungen
+
+Die Begriffe Hilfesuchende, Helfer, technischer Leiter und Mitgründerin beschreiben unterschiedliche Rollen eines Nutzers. Eine Person kann mehrere Rollen besitzen. Daher werden sie nicht zwingend als eigene Nutzer-Unterklassen modelliert, sondern über eine Rollen-Zuordnung abgebildet.
+
+Eine Rolle kann mit bestimmten Berechtigungen verknüpft sein, z. B. darf der technische Leiter Reparaturanfragen prüfen und Helfer zuweisen. Bei einer festen Rollen- und Berechtigungsstruktur können Rollen und Berechtigungen als Enum bzw. festgelegte Werte modelliert werden. Bei einer flexibel verwaltbaren Struktur sind eigenständige Klassen Rolle und Berechtigung sinnvoll.
+
+Beispiel:
+
+- Nutzer Martin besitzt die Rolle „Technischer Leiter“.
+- Die Rolle „Technischer Leiter“ umfasst die Berechtigungen „Reparaturanfrage prüfen“ und „Helfer zuweisen“.
+- Nutzer Martin ist ein konkretes Objekt der Klasse Nutzer; die Rolle und die Berechtigungen werden ihm zugeordnet.
