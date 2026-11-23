@@ -1,4 +1,4 @@
-<mxfile host="drawio-plugin" modified="2026-11-23T13:01:08.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="iJSty-g4P47tBdLItZms" version="22.1.22" type="embed" pages="4">
+<mxfile host="drawio-plugin" modified="2026-11-23T13:04:34.046Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="ND8C_I3Vl1U7c_x__NIJ" version="22.1.22" type="embed" pages="4">
   <diagram name="UML Objektdiagramm" id="6w7iLH8OgvT81hZKhVNR">
     <mxGraphModel dx="614" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8WTsJ2DuHbIhQF11gqjI" name="UML Zustandsdiagramm">
-    <mxGraphModel dx="675" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="673" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,13 +201,10 @@
           <mxGeometry x="615" y="760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r3tkI_7QFp0CD1St5DUB-21" value="diagnostiziert" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="560" y="920" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="930" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r3tkI_7QFp0CD1St5DUB-23" value="Ersatzteil vorhanden&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="700" y="830" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r3tkI_7QFp0CD1St5DUB-24" value="Anfrage bleibt offen" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="690" y="960" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r3tkI_7QFp0CD1St5DUB-25" value="abgelehnt" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="310" y="1129" width="120" height="40" as="geometry" />
@@ -235,8 +232,8 @@
         </mxCell>
         <mxCell id="r3tkI_7QFp0CD1St5DUB-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="1000" as="sourcePoint" />
-            <mxPoint x="740" y="1090" as="targetPoint" />
+            <mxPoint x="739.33" y="1200" as="sourcePoint" />
+            <mxPoint x="739.33" y="1290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r3tkI_7QFp0CD1St5DUB-35" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.417;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="r3tkI_7QFp0CD1St5DUB-14" source="r3tkI_7QFp0CD1St5DUB-36">
@@ -296,6 +293,9 @@
           <mxGeometry x="0.1056" y="3" relative="1" as="geometry">
             <mxPoint x="9" y="-8" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PfWxiljPpEc8JD86mHlS-21" value="Recycling / Entsorgung empfohlen" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1050" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
