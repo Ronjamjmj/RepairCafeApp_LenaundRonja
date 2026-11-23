@@ -2,7 +2,7 @@
 
 **Review vom:** 11.11.2026
 **Ergänzung:** 18.11.2026
-**Umfang:** SMS-Erinnerungen, Helferwahl/Zuweisung und Messkriterien für N-020. Betroffene Dateien (`docs/01-anforderungen/`): `anforderungen_fallstudie.md`, `user-stories.md`, `use-case-diagramm.md`, `szenarien.md`.
+**Umfang:** SMS-Erinnerungen, Helferwahl/Zuweisung und Messkriterien für N-020. Betroffene Dateien (`docs/01-anforderungen/`): `anforderungen.md`, `user-stories.md`, `use-case-diagramm.md`, `szenarien.md`.
 
 ## Erkenntnisse und Umsetzung
 

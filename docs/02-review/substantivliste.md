@@ -1,4 +1,4 @@
-Umfang: Gelesen wurden `F-010` bis `F-120` aus `docs/01-anforderungen/anforderungen_fallstudie.md`, `US1` bis `US10` aus `docs/01-anforderungen/user-stories.md` sowie der strukturierte Anwendungsfall `UC-02` aus `docs/01-anforderungen/use-case-diagramm.md`.
+Umfang: Gelesen wurden `F-010` bis `F-120` aus `../01-anforderungen/anforderungen.md`, `US1` bis `US10` aus `docs/01-anforderungen/user-stories.md` sowie der strukturierte Anwendungsfall `UC-02` aus `docs/01-anforderungen/use-case-diagramm.md`.
 
 | ID | Originalform(en) | Grundform / Mehrwortbegriff | Fundstelle(n) mit Originalbeleg | Studentische Einordnung | Studentische Begründung |
 |---|---|---|---|---|---|
