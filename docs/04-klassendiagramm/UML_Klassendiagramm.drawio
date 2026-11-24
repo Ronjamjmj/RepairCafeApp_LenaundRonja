@@ -1,0 +1,18 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="UML_Klassendiagramm" id="7uRdY_8Vgevaj8e-Rmwv">
+    <mxGraphModel dx="721" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K6dXeQ4mkt4lh6tp1rey" name="UML_Komponentendiagramm">
+    <mxGraphModel dx="721" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
