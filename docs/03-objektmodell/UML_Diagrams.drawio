@@ -1,4 +1,4 @@
-<mxfile host="drawio-plugin" modified="2026-11-24T14:48:09.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="EKCNO7wf0nDyUp6Yrgap" version="22.1.22" type="embed" pages="4">
+<mxfile host="drawio-plugin" modified="2026-11-24T14:51:50.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="TVP6K3AcO7WdeBA5aSI3" version="22.1.22" type="embed" pages="4">
   <diagram name="UML Objektdiagramm" id="6w7iLH8OgvT81hZKhVNR">
     <mxGraphModel dx="657" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
         <mxCell id="PfWxiljPpEc8JD86mHlS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r3tkI_7QFp0CD1St5DUB-19" target="r3tkI_7QFp0CD1St5DUB-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PfWxiljPpEc8JD86mHlS-20" value="Diagnose abgeschlossen&amp;nbsp;&lt;br&gt;[Reparatur lohnt sich] /&lt;br&gt;Diagnose speichern" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-19">
+        <mxCell id="PfWxiljPpEc8JD86mHlS-20" value="Diagnose durchführen&amp;nbsp;&lt;br&gt;[Reparatur lohnt sich] /&lt;br&gt;Diagnose speichern" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-19">
           <mxGeometry x="-0.2644" y="1" relative="1" as="geometry">
             <mxPoint x="30" y="11" as="offset" />
           </mxGeometry>
@@ -210,7 +210,7 @@
         <mxCell id="PfWxiljPpEc8JD86mHlS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r3tkI_7QFp0CD1St5DUB-20" target="PfWxiljPpEc8JD86mHlS-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NUlIsQ2LsWtGdtllnbDO-10" value="Reparatur &lt;br&gt;abgeschlossen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-38">
+        <mxCell id="NUlIsQ2LsWtGdtllnbDO-10" value="Reparatur&lt;br&gt;durchführen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-38">
           <mxGeometry x="-0.5273" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -246,7 +246,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PfWxiljPpEc8JD86mHlS-8" value="Prüfung abgeschlossen&lt;br&gt;[passenden Helfer gefunden] /&amp;nbsp;&lt;br&gt;Hilfesuchende informieren&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r3tkI_7QFp0CD1St5DUB-33">
+        <mxCell id="PfWxiljPpEc8JD86mHlS-8" value="Prüfung durchführen&lt;br&gt;[passenden Helfer gefunden] /&amp;nbsp;&lt;br&gt;Hilfesuchende informieren&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r3tkI_7QFp0CD1St5DUB-33">
           <mxGeometry x="0.1143" y="1" relative="1" as="geometry">
             <mxPoint x="19" y="24" as="offset" />
           </mxGeometry>
@@ -283,7 +283,7 @@
             <mxPoint x="335" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PfWxiljPpEc8JD86mHlS-32" value="Prüfung abgeschlossen&lt;br&gt;[kein passender Helfer verfügbar] /&lt;br&gt;Kontaktverweis senden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-6">
+        <mxCell id="PfWxiljPpEc8JD86mHlS-32" value="Prüfung durchführen&lt;br&gt;[kein passender Helfer verfügbar] /&lt;br&gt;Kontaktverweis senden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-6">
           <mxGeometry x="0.2293" y="-2" relative="1" as="geometry">
             <mxPoint x="-3" y="-109" as="offset" />
           </mxGeometry>
@@ -366,7 +366,7 @@
             <mxPoint x="430" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NUlIsQ2LsWtGdtllnbDO-3" value="Diagnose abgeschlossen &lt;br&gt;[Reparatur lohnt sich nicht] / &lt;br&gt;Entsorgungsempfehlung senden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-64">
+        <mxCell id="NUlIsQ2LsWtGdtllnbDO-3" value="Diagnose durchführen&lt;br&gt;[Reparatur lohnt sich nicht] / &lt;br&gt;Entsorgungsempfehlung senden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-64">
           <mxGeometry x="-0.2737" relative="1" as="geometry">
             <mxPoint x="19" y="-1" as="offset" />
           </mxGeometry>
