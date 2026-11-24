@@ -7,7 +7,7 @@ Basierend auf den Personas Sabine, Jonas, Rosa und Martin.
 |---|---|---|---|
 | US1 | Als Hilfesuchende möchte ich mich nur mit Name, Telefonnummer und Postleitzahl registrieren, damit ich ohne komplizierte Formulare starten kann. | Sabine | Hoch |
 | US2 | Als Hilfesuchende möchte ich den Defekt über eine Auswahl typischer Probleme beschreiben, damit ich keine Fachbegriffe kennen muss. | Sabine | Hoch |
-| US3 | Als Hilfesuchende möchte ich beim zugewiesenen Helfer einen freien Diagnosetermin wählen, damit ein Fachkundiger feststellt, was am Gerät kaputt ist, und ich den Termin zu meiner Zeit planen kann. | Sabine | Hoch |
+| US3 | Als Hilfesuchende möchte ich beim zugewiesenen Helfer einen freien Diagnosetermin wählen, damit ein Fachkundiger feststellt, was am Gerät defekt ist, und ich den Termin zu meiner Zeit planen kann. | Sabine | Hoch |
 | US4 | Als Hilfesuchende möchte ich nach der Diagnose eine Ersatzteilempfehlung aufs Handy bekommen, damit ich das Teil selbst kaufen und danach einen Reparaturtermin buchen kann. | Sabine | Hoch |
 | US5 | Als ehrenamtlicher Helfer möchte ich Anfragen nach meinem Fachgebiet filtern und Fotos vorab sehen, damit ich mich vorbereiten und gezielt helfen kann. | Jonas | Hoch |
 | US6 | Als ehrenamtlicher Helfer möchte ich nach der Diagnose ein Ersatzteil empfehlen und optional einen Richtpreis angeben, damit die Person das richtige Teil kauft. | Jonas | Hoch |
