@@ -1,4 +1,4 @@
-<mxfile host="drawio-plugin" modified="2026-11-24T14:42:39.017Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="G43hcBeWvNDAxDN4SD8G" version="22.1.22" type="embed" pages="4">
+<mxfile host="drawio-plugin" modified="2026-11-24T14:44:11.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" etag="tjR88ROCrf6V7g99srRt" version="22.1.22" type="embed" pages="4">
   <diagram name="UML Objektdiagramm" id="6w7iLH8OgvT81hZKhVNR">
     <mxGraphModel dx="657" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8WTsJ2DuHbIhQF11gqjI" name="UML Zustandsdiagramm">
-    <mxGraphModel dx="1386" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1314" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,16 +174,17 @@
         <mxCell id="ZR4O6x6P6PIMG4jnt_pk-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Zustände&lt;/h1&gt;&lt;ul&gt;&lt;li style=&quot;border-color: rgb(218, 220, 224);&quot;&gt;Objekt: Reparaturanfrage&lt;/li&gt;&lt;li style=&quot;border-color: rgb(218, 220, 224);&quot;&gt;Zustände des Objekts: Reparaturanfrage&lt;/li&gt;&lt;li&gt;Anfangszustand&amp;nbsp;&lt;/li&gt;&lt;li&gt;Endzustand&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Beispielzustände:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Entwurf/angelegt&lt;br&gt;&lt;/li&gt;&lt;li&gt;eingereicht/wartet auf Prüfung&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;angenommen/termin gebucht&lt;br&gt;&lt;/li&gt;&lt;li&gt;eingecheckt/ Warteschlange&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;In Reperatur&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Wartet auf Ersatzteil/pausiert&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Repariert/abgeschlossen&lt;br&gt;&lt;/li&gt;&lt;li&gt;nicht reparierbar&lt;br&gt;&lt;/li&gt;&lt;li&gt;storniert/abgebrochen&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="110" width="285" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="PfWxiljPpEc8JD86mHlS-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r3tkI_7QFp0CD1St5DUB-5" target="PfWxiljPpEc8JD86mHlS-40">
+        <mxCell id="PfWxiljPpEc8JD86mHlS-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="PfWxiljPpEc8JD86mHlS-40">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="580" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="520" y="250" />
+              <mxPoint x="520" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NUlIsQ2LsWtGdtllnbDO-4" value="Ersatzteil gemeldet&lt;br&gt;&amp;nbsp;[Ersatzteil nicht erhältlich] /&amp;nbsp;&lt;br&gt;Hilfesuchende informieren" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfWxiljPpEc8JD86mHlS-66">
           <mxGeometry x="0.2145" y="2" relative="1" as="geometry">
-            <mxPoint y="20" as="offset" />
+            <mxPoint x="-22" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r3tkI_7QFp0CD1St5DUB-5" value="Reparaturanfrage angelegt" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
