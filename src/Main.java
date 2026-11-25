@@ -23,7 +23,7 @@ public class Main {
                 + sabine.hatRolle(RollenTyp.HILFESUCHENDE));
         anfrage1.helferZuweisen(jonas);
         System.out.println("Helferzuweisung für Anfrage A-001 ausgeführt.");
-        anfrage1.statusAktualisieren(AnfrageStatus.OFFEN);
-        System.out.println("Status-Demo ausgeführt: " + AnfrageStatus.OFFEN);
+        anfrage1.statusAktualisieren(AnfrageStatus.ZUGEWIESEN);
+        System.out.println("Status-Demo ausgeführt: " + AnfrageStatus.ZUGEWIESEN);
     }
 }

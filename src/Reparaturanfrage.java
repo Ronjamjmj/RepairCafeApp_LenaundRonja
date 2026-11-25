@@ -38,5 +38,6 @@ public class Reparaturanfrage {
 // Vorläufige, ausdrücklich gewählte Demo-Werte.
 enum AnfrageStatus {
     NEU,
-    OFFEN
+    OFFEN,
+    ZUGEWIESEN
 }
