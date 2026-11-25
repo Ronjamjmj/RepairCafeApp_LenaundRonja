@@ -37,7 +37,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6VkR3tut8VRVUg-JS-by-5" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Mängelverwaltung&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" vertex="1">
-          <mxGeometry height="90" width="180" x="460" y="140" as="geometry" />
+          <mxGeometry height="90" width="180" x="490" y="210" as="geometry" />
         </mxCell>
         <mxCell id="6VkR3tut8VRVUg-JS-by-6" parent="6VkR3tut8VRVUg-JS-by-5" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
@@ -52,10 +52,18 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6VkR3tut8VRVUg-JS-by-9" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" vertex="1">
+        <mxCell id="6VkR3tut8VRVUg-JS-by-9" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Ersatzteilempfehlung&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" vertex="1">
           <mxGeometry height="90" width="180" x="480" y="20" as="geometry" />
         </mxCell>
         <mxCell id="6VkR3tut8VRVUg-JS-by-10" parent="6VkR3tut8VRVUg-JS-by-9" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VkR3tut8VRVUg-JS-by-11" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Benutzerverwaltung&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="490" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="6VkR3tut8VRVUg-JS-by-12" parent="6VkR3tut8VRVUg-JS-by-11" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
