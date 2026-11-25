@@ -2,11 +2,6 @@ classDiagram
     direction TB
 
 %% ===== INTERFACES =====
-    class Benachrichtigbar {
-        <<interface>>
-        +sendeNachricht(empfaenger: Kontaktangabe, inhalt: String) Boolean
-        +planeErinnerung(termin: Termin, vorlaufStunden: Integer) void
-    }
 
     class Exportierbar {
         <<interface>>
@@ -14,11 +9,6 @@ classDiagram
         +exportiereAlsPdf() File
     }
 
-    class Bewertbar {
-        <<interface>>
-        +bewertungHinzufuegen(bewertung: Bewertung) void
-        +berechneDurchschnitt() Double
-    }
 
 %% ===== NUTZER & KONTAKT (GENERALISIERUNG 1) =====
     class Nutzer {
@@ -29,7 +19,6 @@ classDiagram
         -Set~Fachgebiet~ fachgebiete
         +registrieren() Boolean
         +hatRolle(rolle: RollenTyp) Boolean
-        +bewertungHinzufuegen(bewertung: Bewertung) void
         +berechneDurchschnitt() Double
     }
 
@@ -61,20 +50,6 @@ classDiagram
         +validieren() Boolean
     }
 
-%% ===== SKILLS & ASSOZIATIONSKLASSE =====
-    class Skill {
-        -String skillId
-        -String bezeichnung
-        -Fachgebiet fachgebiet
-    }
-
-    class Kompetenzprofil {
-<<association class>>
--String erfahrungsLevel
--Date geprueftAm
-+freigeben() void
-}
-
 %% ===== REPARATURANFRAGE & GERÄT =====
 class Reparaturanfrage {
 -String anfrageId
@@ -89,119 +64,77 @@ class Reparaturanfrage {
 class Geraet {
 -String geraetId
 -Geraetekategorie kategorie
--String modellbezeichnung
--String hersteller
 }
 
 class Foto {
 -String fotoId
 -String dateiname
--String speicherpfad
--FotoArt art
 }
 
 class Ersatzteilempfehlung {
 -String empfehlungId
 -String ersatzteilname
+-String hersteller
 -Double richtpreis
 -Boolean istVorhanden
 +alsVorhandenMarkieren() void
 }
 
-class Bewertung {
--String bewertungId
--Integer sterne
--String kommentar
--Date datum
-}
-
 %% ===== TERMINE (GENERALISIERUNG 2) =====
-class Termin {
-<<abstract>>
-#String terminId
-#Date datum
-#Time startzeit
-#Integer dauerMinuten
-#String ort
-#TerminStatus status
-+buchen(anfrage: Reparaturanfrage) Boolean
-+absagen() void
+    class Termin {
+- terminId : String
+- art : TerminArt
+- datum : Date
+- startzeit : Time
+- dauerMinuten : Integer
+- ort : String
+- status : TerminStatus
+- befund : String
+- sofortRepariert : Boolean
+- maxPlaetze : Integer
++ buchen(anfrage: Reparaturanfrage) Boolean
++ absagen() void
 }
 
-class Diagnosetermin {
--String befund
--Boolean reparaturLohntSich
--Boolean sofortRepariert
-+diagnoseErfassen(befund: String, lohntSich: Boolean) void
+class TerminArt {
+<<enumeration>>
+DIAGNOSE
+REPARATUR
+CAFE_TERMIN
+    }
+
+class TerminStatus {
+<<enumeration>>
+FREI
+GEBUCHT
+ABGESCHLOSSEN
+ABGESAGT
 }
 
-class Reparaturtermin {
--String durchgefuehrteArbeiten
--Boolean reparaturErfolgreich
-+reparaturAbschliessen() void
-}
-
-class CafeTermin {
--String veranstaltungstitel
--Integer maxPlaetze
-+auslastungBerechnen() Double
-}
-
-%% ===== BENACHRICHTIGUNG & AUSWERTUNG =====
-class Benachrichtigung {
--String nachrichtId
--String inhalt
--DateTime versandZeitpunkt
--Boolean zugestellt
-+sendeNachricht(empfaenger: Kontaktangabe, inhalt: String) Boolean
-+planeErinnerung(termin: Termin, vorlaufStunden: Integer) void
-}
-
-class Auswertung {
--String auswertungId
--Date zeitraumVon
--Date zeitraumBis
--Integer anzahlReparaturen
--Double erfolgsquote
-+exportiereAlsCsv() File
-+exportiereAlsPdf() File
-}
+Termin ..> TerminArt : hat Art
+Termin ..> TerminStatus : hat Status
 
 %% ===== VERERBUNG (GENERALISIERUNG) =====
 Kontaktangabe <|-- Telefonnummer
 Kontaktangabe <|-- EmailAdresse
 
-Termin <|-- Diagnosetermin
-Termin <|-- Reparaturtermin
-Termin <|-- CafeTermin
-
 %% ===== REALISIERUNG & NUTZUNG (INTERFACES) =====
-Bewertbar <|.. Nutzer
-Benachrichtigbar <|.. Benachrichtigung
-Exportierbar <|.. Auswertung
 
-Termin ..> Benachrichtigbar : nutzt
+
 Nutzer ..> Exportierbar : nutzt
-Bewertung ..> Bewertbar : nutzt
 
 %% ===== KOMPOSITIONEN & AGGREGATIONEN =====
 Nutzer "1" *--> "1" Benutzerkonto : besitzt
 Nutzer "1" *--> "1..*" Kontaktangabe : hat
-Nutzer "0..*" o-- "0..*" Skill : beherrscht
-Nutzer .. Kompetenzprofil
-Skill .. Kompetenzprofil
+
 
 Reparaturanfrage "1" *--> "0..*" Foto : dokumentiert durch
 Reparaturanfrage "1" *--> "0..*" Ersatzteilempfehlung : enthaelt
 Reparaturanfrage "1" *--> "0..2" Termin : terminiert ueber
 
-CafeTermin "0..1" o--> "0..*" Termin : buendelt
 
 %% ===== ASSOZIATIONEN =====
 Nutzer "1" --> "0..*" Reparaturanfrage : erstellt
 Nutzer "0..1" --> "0..*" Reparaturanfrage : bearbeitet
 Nutzer "1" --> "0..*" Termin : hat Verfuegbarkeit
 Reparaturanfrage "0..*" --> "1" Geraet : betrifft
-Reparaturanfrage "1" --> "0..1" Bewertung : erhaelt
-Termin "1" --> "0..*" Benachrichtigung : loest aus
-Auswertung "0..*" ..> "1..*" Reparaturanfrage : wertet aus
